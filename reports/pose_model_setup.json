@@ -1,0 +1,70 @@
+{
+  "onnxruntime_environment": {
+    "version": "1.29.0",
+    "available_providers": [
+      "AzureExecutionProvider",
+      "CPUExecutionProvider"
+    ],
+    "cpu_execution_provider_ready": true
+  },
+  "opencv_environment": {
+    "version": "5.0.0.93",
+    "dnn_module_available": true,
+    "dnn_tflite_reader_available": true,
+    "dnn_tflite_operator_limitations": "cv2.dnn fails on TFLite models containing ARG_MAX operator (Exception: Unsupported operator type ARG_MAX in function TFLiteImporter::populateNet)"
+  },
+  "tensorflow_environment": {
+    "tensorflow_installed": false,
+    "tflite_runtime_installed": false
+  },
+  "existing_pipeline_assets": {
+    "sample_clips_directory": "outputs/sample_clips",
+    "total_sample_clips": 12,
+    "motion_analysis_report_present": true,
+    "selection_evaluation_report_present": true,
+    "rar_archives_intact": true
+  },
+  "movenet_lightning_research": {
+    "model_name": "MoveNet SinglePose Lightning",
+    "official_urls": {
+      "tflite_float16": "https://tfhub.dev/google/lite-model/movenet/singlepose/lightning/tflite/float16/4?lite-format=tflite",
+      "tflite_v3": "https://tfhub.dev/google/lite-model/movenet/singlepose/lightning/3?lite-format=tflite",
+      "tfhub_page": "https://tfhub.dev/google/movenet/singlepose/lightning/4"
+    },
+    "license": "Apache License 2.0",
+    "expected_input_shape": [1, 192, 192, 3],
+    "input_format": "RGB image normalized to [0, 255] or float32 depending on preprocessing",
+    "expected_output_shape": [1, 1, 17, 3],
+    "output_keypoint_format": "17 keypoints: [y, x, confidence] normalized in range [0.0, 1.0]",
+    "keypoint_order": [
+      "nose", "left_eye", "right_eye", "left_ear", "right_ear",
+      "left_shoulder", "right_shoulder", "left_elbow", "right_elbow",
+      "left_wrist", "right_wrist", "left_hip", "right_hip",
+      "left_knee", "right_knee", "left_ankle", "right_ankle"
+    ],
+    "official_onnx_availability": false,
+    "official_onnx_note": "Google TF Hub hosts only TFLite and SavedModel formats; no official Google-provided ONNX file is published."
+  },
+  "compatibility_assessment": {
+    "can_run_with_existing_packages": false,
+    "detailed_reason": "1) Official MoveNet TFLite files cannot be loaded by cv2.dnn because OpenCV 5.0.0 lacks support for the ARG_MAX operator used in MoveNet's peak detection sub-graph. 2) Google does not host official ONNX files on TF Hub (conversion requires tf2onnx or PyTorch). 3) Neither tensorflow nor tflite_runtime is installed in the current environment.",
+    "action_taken": "Stopped per rule 6 without downloading unauthorized community mirrors or installing new packages."
+  },
+  "smallest_safe_next_options": [
+    {
+      "option": "A: Install tflite-runtime or tensorflow-lite",
+      "requirements": "pip install tflite-runtime",
+      "benefit": "Enables direct, zero-code-change execution of Google's official Apache-2.0 MoveNet SinglePose Lightning TFLite model directly on CPU."
+    },
+    {
+      "option": "B: Install mediapipe",
+      "requirements": "pip install mediapipe",
+      "benefit": "Includes Google's official BlazePose pose landmark pipeline directly via CPU, extracting 33 landmarks without needing PyTorch or external ONNX converters."
+    },
+    {
+      "option": "C: Generate yolov8n-pose.onnx or movenet.onnx on an unrestricted machine",
+      "requirements": "Convert official weights to ONNX off-system and copy into models/ folder",
+      "benefit": "Runs immediately on this host's already-verified onnxruntime 1.29.0 CPU provider with zero package installations."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "file_name": "vid100_41.avi",
+    "relative_path": "sample_clips/Cover Drive/vid100_41.avi",
+    "class": "Cover Drive",
+    "can_decode": true,
+    "reported_fps": 30.0,
+    "reported_frame_count": 24,
+    "actual_decoded_frames": 24,
+    "width": 896,
+    "height": 540,
+    "duration_seconds": 0.8,
+    "file_size_bytes": 334656
+  },
+  {
+    "file_name": "vid100_0.avi",
+    "relative_path": "sample_clips/Defensive/vid100_0.avi",
+    "class": "Defensive",
+    "can_decode": true,
+    "reported_fps": 30.0,
+    "reported_frame_count": 24,
+    "actual_decoded_frames": 24,
+    "width": 896,
+    "height": 540,
+    "duration_seconds": 0.8,
+    "file_size_bytes": 252126
+  },
+  {
+    "file_name": "vid100_28.avi",
+    "relative_path": "sample_clips/Scoop/vid100_28.avi",
+    "class": "Scoop",
+    "can_decode": true,
+    "reported_fps": 30.0,
+    "reported_frame_count": 24,
+    "actual_decoded_frames": 24,
+    "width": 896,
+    "height": 540,
+    "duration_seconds": 0.8,
+    "file_size_bytes": 394268
+  }
+]

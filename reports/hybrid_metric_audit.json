@@ -1,0 +1,102 @@
+{
+  "audit_metadata": {
+    "evaluation_target": "Hybrid Selection vs Uniform and Motion-Aware Baselines",
+    "total_clips": 12,
+    "total_reference_frames": 288,
+    "total_reference_frames_with_detected_pose": 262,
+    "total_reference_frames_missed_at_source": 26,
+    "source_reports_audited": [
+      "reports/hybrid_selection_evaluation.json",
+      "reports/hybrid_selection_summary.json",
+      "reports/pose_temporal_quality.json",
+      "reports/pose_temporal_quality_summary.json"
+    ]
+  },
+  "nspe_aggregation_verification": {
+    "averaging_method_confirmed": "Macro-average (mean of the 12 per-clip NSPE averages) as reported in summary files.",
+    "macro_average_vs_micro_average": {
+      "uniform": {
+        "summary_reported_macro_nspe": 0.0657,
+        "verified_macro_nspe": 0.0657,
+        "pooled_micro_frame_nspe": 0.0648,
+        "delta": -0.0009
+      },
+      "motion_aware": {
+        "summary_reported_macro_nspe": 0.0727,
+        "verified_macro_nspe": 0.0727,
+        "pooled_micro_frame_nspe": 0.0725,
+        "delta": -0.0002
+      },
+      "hybrid": {
+        "summary_reported_macro_nspe": 0.0665,
+        "verified_macro_nspe": 0.0665,
+        "pooled_micro_frame_nspe": 0.0658,
+        "delta": -0.0007
+      }
+    },
+    "interpretation": "Both averaging methods preserve the exact same relative performance ordering: Uniform (0.0648 / 0.0657) < Hybrid (0.0658 / 0.0665) < Motion-Aware (0.0725 / 0.0727). Discrepancy is under 0.001."
+  },
+  "temporal_distance_and_joint_coverage_audit": {
+    "uniform": {
+      "mean_temporal_distance_to_match_frames": 1.22,
+      "max_temporal_distance_frames": 4,
+      "mean_mutually_visible_joints_per_frame": 27.28,
+      "min_mutually_visible_joints": 15,
+      "max_mutually_visible_joints": 33
+    },
+    "motion_aware": {
+      "mean_temporal_distance_to_match_frames": 1.31,
+      "max_temporal_distance_frames": 7,
+      "mean_mutually_visible_joints_per_frame": 27.89,
+      "min_mutually_visible_joints": 15,
+      "max_mutually_visible_joints": 33
+    },
+    "hybrid": {
+      "mean_temporal_distance_to_match_frames": 1.49,
+      "max_temporal_distance_frames": 6,
+      "mean_mutually_visible_joints_per_frame": 27.75,
+      "min_mutually_visible_joints": 15,
+      "max_mutually_visible_joints": 33
+    }
+  },
+  "unmatched_reference_frames_audit": {
+    "total_detected_ref_frames_across_12_clips": 262,
+    "unmatched_ref_frames_count": {
+      "uniform": 0,
+      "motion_aware": 0,
+      "hybrid": 0
+    },
+    "audit_finding": "Every valid reference frame found at least one temporally nearby selected pose that shared >= 15 mutually visible landmarks (visibility >= 0.5). Zero reference frames were silently dropped from NSPE calculation.",
+    "reference_frames_without_detection": {
+      "count": 26,
+      "percentage_of_video_frames": 9.03,
+      "breakdown_by_clip": {
+        "Cover Drive/vid100_41.avi": [4, 5, 23],
+        "Cover Drive/vid100_60.avi": [0],
+        "Defensive/vid100_0.avi": [0, 1],
+        "Defensive/vid100_14.avi": [3, 4, 5, 23],
+        "Flick/vid100_38.avi": [2, 3, 16],
+        "Hook/vid100_13.avi": [0, 22, 23],
+        "Late Cut/vid101_23.avi": [2, 3, 5],
+        "Reverse Sweep/vid100_36.avi": [21, 22, 23],
+        "Straight Drive/vid100_45.avi": [4, 5, 14, 23],
+        "Pull/vid100_29.avi": [],
+        "Scoop/vid100_28.avi": [],
+        "Upper Cut/vid100_70.avi": []
+      },
+      "handling_rule": "These 26 frames lack any human body detection in the unconstrained 24-frame video stream. They are strictly excluded from NSPE calculation (not treated as zero coordinates) to prevent artificial distortion."
+    }
+  },
+  "metric_separation_summary": {
+    "temporal_coverage_metrics": {
+      "uniform": { "span_ratio": 1.0, "mean_max_gap": 5.0, "mean_gap": 4.6 },
+      "motion_aware": { "span_ratio": 0.8188, "mean_max_gap": 5.58, "mean_gap": 3.75 },
+      "hybrid": { "span_ratio": 1.0, "mean_max_gap": 7.75, "mean_gap": 4.6 }
+    },
+    "pose_quality_metrics": {
+      "uniform": { "detection_rate_pct": 87.5, "landmark_visibility": 0.831, "nspe": 0.0657 },
+      "motion_aware": { "detection_rate_pct": 93.05, "landmark_visibility": 0.8407, "nspe": 0.0727 },
+      "hybrid": { "detection_rate_pct": 90.28, "landmark_visibility": 0.8349, "nspe": 0.0665 }
+    }
+  }
+}

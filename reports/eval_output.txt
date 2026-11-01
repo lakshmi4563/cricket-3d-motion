@@ -1,0 +1,498 @@
+﻿python : INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+At line:1 char:1
++ python src\evaluate_reconstruction.py 2>&1 | Out-File -Encoding utf8  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (INFO: Created T...legate for CPU.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+W0000 00:00:1793467527.826540   12216 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature 
+inference. Disabling support for feedback tensors.
+W0000 00:00:1793467527.847147   12216 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature 
+inference. Disabling support for feedback tensors.
+================================================================================
+RECONSTRUCTION ERROR EVALUATION
+Clips found: 8 | K budgets: [3, 4, 5, 6, 8, 12, 16]
+Model: C:\Users\ADMIN\Downloads\Cricket3D_Motion-20261031T055529Z-1-001\Cricket3D_Motion\models\pose_landmarker_lite.task
+================================================================================
+
+  Processing Cover Drive/vid100_41.avi ...
+W0000 00:00:1793467528.006032   24824 landmark_projection_calculator.cc:81] Using NORM_RECT without IMAGE_DIMENSIONS is only supported 
+for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+    Total frames: 24
+    Pose detected in 16/24 frames
+    K= 3 | U=0.113992 M=0.098222 H=0.133365 P=0.133365 G=0.106787
+    K= 4 | U=0.120438 M=0.087162 H=0.138708 P=0.115102 G=0.083323
+    K= 5 | U=0.073009 M=0.099879 H=0.137352 P=0.132137 G=0.072055
+    K= 6 | U=0.064414 M=0.057348 H=0.116372 P=0.128064 G=0.055251
+    K= 8 | U=0.047501 M=0.054976 H=0.096262 P=0.101034 G=0.03298
+    K=12 | U=0.026104 M=0.031845 H=0.018575 P=0.026152 G=0.011604
+    K=16 | U=0.016241 M=0.027827 H=0.009734 P=0.010924 G=0.002168
+
+  Processing Defensive/vid100_14.avi ...
+    Total frames: 24
+    Pose detected in 19/24 frames
+    K= 3 | U=0.090259 M=0.061816 H=0.194217 P=0.114782 G=0.034212
+    K= 4 | U=0.047099 M=0.028682 H=0.030572 P=0.114782 G=0.016123
+    K= 5 | U=0.026769 M=0.026617 H=0.029106 P=0.031862 G=0.010036
+    K= 6 | U=0.01982 M=0.02624 H=0.024584 P=0.028145 G=0.008286
+    K= 8 | U=0.013237 M=0.007861 H=0.02219 P=0.015539 G=0.004938
+    K=12 | U=0.004332 M=0.005877 H=0.006263 P=0.006542 G=0.002288
+    K=16 | U=0.004553 M=0.003857 H=0.003194 P=0.003593 G=0.000851
+
+  Processing Flick/vid100_38.avi ...
+    Total frames: 24
+    Pose detected in 16/24 frames
+    K= 3 | U=0.050357 M=0.048479 H=0.064383 P=0.064383 G=0.040206
+    K= 4 | U=0.03403 M=0.030499 H=0.057808 P=0.057808 G=0.029366
+    K= 5 | U=0.024687 M=0.023619 H=0.054614 P=0.032265 G=0.023089
+    K= 6 | U=0.021109 M=0.022716 H=0.033966 P=0.028175 G=0.019497
+    K= 8 | U=0.017779 M=0.017422 H=0.02948 P=0.022385 G=0.013277
+    K=12 | U=0.010531 M=0.01062 H=0.018156 P=0.018156 G=0.005199
+    K=16 | U=0.006691 M=0.006453 H=0.013554 P=0.013554 G=0.001172
+
+  Processing Late Cut/vid101_23.avi ...
+    Total frames: 24
+    Pose detected in 14/24 frames
+    K= 3 | U=0.100158 M=0.156552 H=0.144685 P=0.144685 G=0.098427
+    K= 4 | U=0.060548 M=0.098134 H=0.153252 P=0.099819 G=0.054425
+    K= 5 | U=0.058902 M=0.085561 H=0.163193 P=0.052161 G=0.040145
+    K= 6 | U=0.051305 M=0.070538 H=0.096135 P=0.051086 G=0.029513
+    K= 8 | U=0.035783 M=0.040908 H=0.061068 P=0.015588 G=0.018357
+    K=12 | U=0.018796 M=0.025539 H=0.040791 P=0.007002 G=0.001787
+    K=16 | U=0.002953 M=0.003429 H=0.006549 P=0.003825 G=0.0
+
+  Processing Reverse Sweep/vid100_36.avi ...
+    Total frames: 24
+    Pose detected in 21/24 frames
+    K= 3 | U=0.081984 M=0.08006 H=0.119223 P=0.120235 G=0.075917
+    K= 4 | U=0.056228 M=0.058075 H=0.119223 P=0.087487 G=0.056742
+    K= 5 | U=0.047822 M=0.032674 H=0.119223 P=0.068972 G=0.048732
+    K= 6 | U=0.041827 M=0.027423 H=0.075561 P=0.063009 G=0.042058
+    K= 8 | U=0.040164 M=0.043769 H=0.05345 P=0.054673 G=0.02464
+    K=12 | U=0.01917 M=0.016305 H=0.032955 P=0.034297 G=0.012098
+    K=16 | U=0.015329 M=0.011254 H=0.012717 P=0.012717 G=0.00502
+
+  Processing Scoop/vid100_28.avi ...
+    Total frames: 24
+    Pose detected in 24/24 frames
+    K= 3 | U=0.117387 M=0.0715 H=0.106602 P=0.103801 G=0.099749
+    K= 4 | U=0.064985 M=0.066349 H=0.100933 P=0.091378 G=0.061759
+    K= 5 | U=0.053086 M=0.063404 H=0.090531 P=0.07895 G=0.047551
+    K= 6 | U=0.041104 M=0.055925 H=0.088045 P=0.076842 G=0.04068
+    K= 8 | U=0.029117 M=0.037967 H=0.042548 P=0.065475 G=0.031291
+    K=12 | U=0.019157 M=0.018353 H=0.021766 P=0.021252 G=0.012626
+    K=16 | U=0.012251 M=0.010309 H=0.016611 P=0.014827 G=0.005842
+
+  Processing Straight Drive/vid100_45.avi ...
+    Total frames: 24
+    Pose detected in 14/24 frames
+    [FALLBACK] phase_aware fell back to hybrid (vid100_45.avi, K=3)
+    K= 3 | U=0.079829 M=0.089531 H=0.094614 P=0.094614 G=0.078174
+    [FALLBACK] phase_aware fell back to hybrid (vid100_45.avi, K=4)
+    K= 4 | U=0.064713 M=0.045926 H=0.077123 P=0.077123 G=0.04241
+    [FALLBACK] phase_aware fell back to hybrid (vid100_45.avi, K=5)
+    K= 5 | U=0.032553 M=0.034018 H=0.067999 P=0.067999 G=0.033276
+    [FALLBACK] phase_aware fell back to hybrid (vid100_45.avi, K=6)
+    K= 6 | U=0.03073 M=0.032589 H=0.051346 P=0.051346 G=0.02589
+    [FALLBACK] phase_aware fell back to hybrid (vid100_45.avi, K=8)
+    K= 8 | U=0.016501 M=0.0209 H=0.033941 P=0.033941 G=0.012657
+    [FALLBACK] phase_aware fell back to hybrid (vid100_45.avi, K=12)
+    K=12 | U=0.009453 M=0.008132 H=0.020018 P=0.020018 G=0.001719
+    [FALLBACK] phase_aware fell back to hybrid (vid100_45.avi, K=16)
+    K=16 | U=0.004734 M=0.003982 H=0.014773 P=0.014773 G=0.0
+
+  Processing Upper Cut/vid100_70.avi ...
+    Total frames: 24
+    Pose detected in 24/24 frames
+    K= 3 | U=0.051732 M=0.075464 H=0.047443 P=0.064844 G=0.047443
+    K= 4 | U=0.044902 M=0.045363 H=0.043206 P=0.041279 G=0.03812
+    K= 5 | U=0.028028 M=0.032899 H=0.037201 P=0.036908 G=0.030867
+    K= 6 | U=0.023535 M=0.030543 H=0.036067 P=0.036101 G=0.021966
+    K= 8 | U=0.016092 M=0.015768 H=0.035217 P=0.032062 G=0.015903
+    K=12 | U=0.009574 M=0.011705 H=0.018855 P=0.018875 G=0.007781
+    K=16 | U=0.005517 M=0.009955 H=0.007896 P=0.007168 G=0.00366
+
+================================================================================
+Clips evaluated: 8 (unique)
+NOTE: small sample; differences may not be statistically meaningful.
+  K=3 : eligible clips = 8
+  K=4 : eligible clips = 8
+  K=5 : eligible clips = 8
+  K=6 : eligible clips = 8
+  K=8 : eligible clips = 8
+  K=12: eligible clips = 8
+  K=16: eligible clips = 8
+phase_aware fell back to hybrid (any K): 1/8 clips
+phase_aware genuinely ran on: 7/8 clips
+phase_aware crashes (counted per clip and K): 0
+Clips with manual impact label: 2/8
+greedy_oracle uses ground truth: upper bound only, not a competitor.
+================================================================================
+
+=== MPJPE (normalised image coords, lower is better) - all clips ===
+K   n                uniform        motion_aware              hybrid         phase_aware       greedy_oracle
+3   8         0.0857+-0.0237      0.0852+-0.0306      0.1131+-0.0434      0.1051+-0.0276      0.0726+-0.0269
+4   8         0.0616+-0.0244      0.0575+-0.0236      0.0901+-0.0422      0.0856+-0.0244      0.0478+-0.0195
+5   8         0.0431+-0.0166      0.0498+-0.0274      0.0874+-0.0456      0.0627+-0.0312      0.0382+-0.0175
+6   8         0.0367+-0.0148      0.0404+-0.0169      0.0653+-0.0314      0.0578+-0.0309      0.0304+-0.0140
+8   8         0.0270+-0.0121      0.0299+-0.0155      0.0468+-0.0221      0.0426+-0.0277      0.0193+-0.0091
+12  8         0.0146+-0.0068      0.0160+-0.0084      0.0222+-0.0098      0.0190+-0.0086      0.0069+-0.0045
+16  8         0.0085+-0.0049      0.0096+-0.0075      0.0106+-0.0043      0.0102+-0.0044      0.0023+-0.0021
+
+=== Joint-angle error in degrees (lower is better) - all clips ===
+K   n                uniform        motion_aware              hybrid         phase_aware       greedy_oracle
+3   8            16.98+-6.49        22.74+-11.44         20.82+-7.36         21.20+-6.78        20.24+-11.23
+4   8           18.19+-10.09         15.93+-6.51         19.33+-7.58         16.50+-6.09         16.94+-7.88
+5   8            14.37+-5.48         14.44+-6.51         19.08+-7.07         15.45+-6.58         14.30+-5.79
+6   8            12.60+-4.35         13.17+-5.04         15.33+-6.12         14.85+-7.27         12.84+-4.82
+8   8             9.52+-3.40         10.73+-3.97         13.08+-5.36         12.58+-6.21          8.35+-2.16
+12  8             5.75+-1.64          5.40+-1.91          8.90+-4.44          8.48+-4.82          4.00+-2.40
+16  8             3.14+-0.93          3.23+-1.71          5.65+-3.60          6.16+-3.79          1.30+-0.98
+
+=== Key-phase recall (higher is better; partly circular for phase_aware) - all clips ===
+K   n                uniform        motion_aware              hybrid         phase_aware       greedy_oracle
+3   8             0.57+-0.13          0.51+-0.18          0.60+-0.15          0.63+-0.07          0.54+-0.14
+4   8             0.69+-0.18          0.66+-0.18          0.63+-0.20          0.77+-0.17          0.66+-0.21
+5   8             0.69+-0.18          0.66+-0.18          0.63+-0.20          0.89+-0.10          0.74+-0.18
+6   8             0.80+-0.15          0.66+-0.18          0.69+-0.18          0.89+-0.10          0.77+-0.17
+8   8             0.80+-0.15          0.74+-0.14          0.80+-0.19          1.00+-0.00          0.86+-0.18
+12  8             0.89+-0.15          0.80+-0.15          0.94+-0.09          1.00+-0.00          0.89+-0.18
+16  8             0.94+-0.14          0.86+-0.18          0.97+-0.07          1.00+-0.00          0.89+-0.18
+
+=== Frames from impact to nearest selected frame (lower is better) - all clips ===
+K   n                uniform        motion_aware              hybrid         phase_aware       greedy_oracle
+3   8             3.25+-1.85          2.62+-0.99          3.50+-1.32          3.38+-0.86          3.38+-1.73
+4   8             3.12+-0.60          1.62+-1.32          2.62+-1.32          2.50+-1.41          2.75+-1.92
+5   8             1.25+-0.66          1.62+-0.86          2.50+-1.32          1.88+-1.54          1.75+-1.56
+6   8             0.88+-0.78          1.25+-0.83          2.00+-1.50          1.38+-1.41          1.12+-0.93
+8   8             1.25+-0.66          0.75+-0.83          1.62+-1.32          1.25+-1.30          0.75+-0.66
+12  8             0.62+-0.48          0.25+-0.43          0.62+-0.86          0.50+-0.71          0.38+-0.48
+16  8             0.38+-0.48          0.12+-0.33          0.00+-0.00          0.12+-0.33          0.00+-0.00
+
+=== Information per frame (higher is better) - all clips ===
+K   n                uniform        motion_aware              hybrid         phase_aware       greedy_oracle
+3   8         0.0971+-0.0434      0.0894+-0.0822      0.0345+-0.0514      0.0419+-0.0558      0.1270+-0.0648
+4   8         0.1187+-0.0498      0.1278+-0.0420      0.0584+-0.0753      0.0746+-0.0318      0.1462+-0.0378
+5   8         0.1274+-0.0235      0.1172+-0.0390      0.0524+-0.0647      0.0933+-0.0488      0.1332+-0.0273
+6   8         0.1147+-0.0181      0.1101+-0.0190      0.0753+-0.0361      0.0851+-0.0390      0.1226+-0.0178
+8   8         0.0963+-0.0115      0.0932+-0.0140      0.0746+-0.0218      0.0792+-0.0265      0.1041+-0.0085
+12  8         0.0728+-0.0042      0.0719+-0.0052      0.0669+-0.0067      0.0687+-0.0072      0.0783+-0.0031
+16  8         0.0579+-0.0025      0.0572+-0.0039      0.0563+-0.0032      0.0566+-0.0033      0.0612+-0.0011
+
+=== Selection runtime in ms - all clips ===
+K   n                uniform        motion_aware              hybrid         phase_aware       greedy_oracle
+3   8           0.075+-0.025        0.065+-0.011        0.017+-0.005        4.571+-0.575        8.515+-0.791
+4   8           0.047+-0.018        0.088+-0.069        0.015+-0.001        4.627+-0.552       16.641+-0.325
+5   8           0.046+-0.011        0.096+-0.078        0.017+-0.006        4.705+-0.729       24.725+-0.867
+6   8           0.042+-0.003        0.117+-0.125        0.016+-0.005        4.371+-0.302       33.354+-2.178
+8   8           0.042+-0.002        0.087+-0.017        0.015+-0.003        4.459+-0.701       48.209+-2.223
+12  8           0.044+-0.003        0.103+-0.011        0.028+-0.033        6.077+-1.052       73.636+-3.298
+16  8           0.111+-0.167        0.125+-0.014        0.019+-0.009        5.322+-0.922       91.893+-3.901
+
+=== MPJPE - only clips where phase_aware genuinely ran ===
+K   n                uniform        motion_aware              hybrid         phase_aware       greedy_oracle
+3   7         0.0866+-0.0252      0.0846+-0.0327      0.1157+-0.0458      0.1066+-0.0292      0.0718+-0.0286
+4   7         0.0612+-0.0261      0.0592+-0.0248      0.0920+-0.0448      0.0868+-0.0259      0.0486+-0.0207
+5   7         0.0446+-0.0173      0.0521+-0.0286      0.0902+-0.0481      0.0619+-0.0333      0.0389+-0.0186
+6   7         0.0376+-0.0157      0.0415+-0.0178      0.0672+-0.0331      0.0588+-0.0329      0.0310+-0.0148
+8   7         0.0285+-0.0123      0.0312+-0.0162      0.0486+-0.0231      0.0438+-0.0294      0.0202+-0.0093
+12  7         0.0154+-0.0069      0.0172+-0.0083      0.0225+-0.0104      0.0189+-0.0092      0.0076+-0.0043
+16  7         0.0091+-0.0050      0.0104+-0.0077      0.0100+-0.0043      0.0095+-0.0043      0.0027+-0.0021
+
+================================================================================
+PAIRED COMPARISON VS UNIFORM - all clips (wins = better than uniform on that clip)
+p-values only shown with >= 5 clips; with few clips treat them as indicative.
+================================================================================
+
+--- K=3 ---
+  motion_aware
+    mpjpe           n=8   mean diff=-0.0005  W/L/T=5/3/0  p=0.844
+    angle_error     n=8   mean diff=+5.7635  W/L/T=1/7/0  p=0.0234
+    phase_recall    n=7   mean diff=-0.0571  W/L/T=1/2/4  p=0.75
+    impact_dist     n=8   mean diff=-0.6250  W/L/T=5/3/0  p=0.531
+    info_per_frame  n=8   mean diff=-0.0076  W/L/T=5/3/0  p=0.945
+  hybrid
+    mpjpe           n=8   mean diff=+0.0274  W/L/T=2/6/0  p=0.0391
+    angle_error     n=8   mean diff=+3.8380  W/L/T=2/6/0  p=0.0781
+    phase_recall    n=7   mean diff=+0.0286  W/L/T=1/0/6  p=1
+    impact_dist     n=8   mean diff=+0.2500  W/L/T=4/3/1  p=0.906
+    info_per_frame  n=8   mean diff=-0.0626  W/L/T=2/6/0  p=0.0391
+  phase_aware
+    mpjpe           n=8   mean diff=+0.0194  W/L/T=1/7/0  p=0.0234
+    angle_error     n=8   mean diff=+4.2211  W/L/T=1/7/0  p=0.0391
+    phase_recall    n=7   mean diff=+0.0571  W/L/T=3/1/3  p=0.75
+    impact_dist     n=8   mean diff=+0.1250  W/L/T=5/3/0  p=0.852
+    info_per_frame  n=8   mean diff=-0.0551  W/L/T=1/7/0  p=0.0156
+
+--- K=4 ---
+  motion_aware
+    mpjpe           n=8   mean diff=-0.0041  W/L/T=4/4/0  p=0.641
+    angle_error     n=8   mean diff=-2.2551  W/L/T=4/4/0  p=0.312
+    phase_recall    n=7   mean diff=-0.0286  W/L/T=1/1/5  p=1
+    impact_dist     n=8   mean diff=-1.5000  W/L/T=6/2/0  p=0.0547
+    info_per_frame  n=8   mean diff=+0.0091  W/L/T=4/4/0  p=0.641
+  hybrid
+    mpjpe           n=8   mean diff=+0.0285  W/L/T=2/6/0  p=0.0547
+    angle_error     n=8   mean diff=+1.1456  W/L/T=4/4/0  p=0.742
+    phase_recall    n=7   mean diff=-0.0571  W/L/T=1/3/3  p=0.5
+    impact_dist     n=8   mean diff=-0.5000  W/L/T=4/2/2  p=0.594
+    info_per_frame  n=8   mean diff=-0.0603  W/L/T=2/6/0  p=0.0391
+  phase_aware
+    mpjpe           n=8   mean diff=+0.0240  W/L/T=2/6/0  p=0.0391
+    angle_error     n=8   mean diff=-1.6894  W/L/T=3/5/0  p=0.742
+    phase_recall    n=7   mean diff=+0.0857  W/L/T=2/1/4  p=0.75
+    impact_dist     n=8   mean diff=-0.6250  W/L/T=4/3/1  p=0.516
+    info_per_frame  n=8   mean diff=-0.0441  W/L/T=2/6/0  p=0.0391
+
+--- K=5 ---
+  motion_aware
+    mpjpe           n=8   mean diff=+0.0067  W/L/T=3/5/0  p=0.25
+    angle_error     n=8   mean diff=+0.0741  W/L/T=4/4/0  p=0.945
+    phase_recall    n=7   mean diff=-0.0286  W/L/T=1/2/4  p=1
+    impact_dist     n=8   mean diff=+0.3750  W/L/T=1/4/3  p=0.562
+    info_per_frame  n=8   mean diff=-0.0103  W/L/T=3/5/0  p=0.312
+  hybrid
+    mpjpe           n=8   mean diff=+0.0443  W/L/T=0/8/0  p=0.00781
+    angle_error     n=8   mean diff=+4.7156  W/L/T=0/8/0  p=0.00781
+    phase_recall    n=7   mean diff=-0.0571  W/L/T=1/4/2  p=0.688
+    impact_dist     n=8   mean diff=+1.2500  W/L/T=1/5/2  p=0.125
+    info_per_frame  n=8   mean diff=-0.0750  W/L/T=0/8/0  p=0.00781
+  phase_aware
+    mpjpe           n=8   mean diff=+0.0195  W/L/T=1/7/0  p=0.0234
+    angle_error     n=8   mean diff=+1.0862  W/L/T=2/6/0  p=0.109
+    phase_recall    n=7   mean diff=+0.2000  W/L/T=4/0/3  p=0.125
+    impact_dist     n=8   mean diff=+0.6250  W/L/T=4/4/0  p=0.555
+    info_per_frame  n=8   mean diff=-0.0341  W/L/T=1/7/0  p=0.0234
+
+--- K=6 ---
+  motion_aware
+    mpjpe           n=8   mean diff=+0.0037  W/L/T=2/6/0  p=0.383
+    angle_error     n=8   mean diff=+0.5702  W/L/T=2/6/0  p=0.25
+    phase_recall    n=7   mean diff=-0.1429  W/L/T=1/6/0  p=0.234
+    impact_dist     n=8   mean diff=+0.3750  W/L/T=3/5/0  p=0.617
+    info_per_frame  n=8   mean diff=-0.0046  W/L/T=2/6/0  p=0.383
+  hybrid
+    mpjpe           n=8   mean diff=+0.0285  W/L/T=0/8/0  p=0.00781
+    angle_error     n=8   mean diff=+2.7255  W/L/T=1/7/0  p=0.0781
+    phase_recall    n=7   mean diff=-0.1143  W/L/T=2/5/0  p=0.469
+    impact_dist     n=8   mean diff=+1.1250  W/L/T=2/6/0  p=0.18
+    info_per_frame  n=8   mean diff=-0.0395  W/L/T=0/8/0  p=0.00781
+  phase_aware
+    mpjpe           n=8   mean diff=+0.0211  W/L/T=1/7/0  p=0.0156
+    angle_error     n=8   mean diff=+2.2524  W/L/T=3/5/0  p=0.312
+    phase_recall    n=7   mean diff=+0.0857  W/L/T=2/1/4  p=0.5
+    impact_dist     n=8   mean diff=+0.5000  W/L/T=2/3/3  p=0.688
+    info_per_frame  n=8   mean diff=-0.0296  W/L/T=1/7/0  p=0.0156
+
+--- K=8 ---
+  motion_aware
+    mpjpe           n=8   mean diff=+0.0029  W/L/T=3/5/0  p=0.25
+    angle_error     n=8   mean diff=+1.2198  W/L/T=3/5/0  p=0.742
+    phase_recall    n=7   mean diff=-0.0571  W/L/T=1/4/2  p=0.688
+    impact_dist     n=8   mean diff=-0.5000  W/L/T=3/0/5  p=0.25
+    info_per_frame  n=8   mean diff=-0.0030  W/L/T=3/5/0  p=0.109
+  hybrid
+    mpjpe           n=8   mean diff=+0.0197  W/L/T=0/8/0  p=0.00781
+    angle_error     n=8   mean diff=+3.5614  W/L/T=1/7/0  p=0.0234
+    phase_recall    n=7   mean diff=+0.0000  W/L/T=2/2/3  p=1
+    impact_dist     n=8   mean diff=+0.3750  W/L/T=4/4/0  p=1
+    info_per_frame  n=8   mean diff=-0.0217  W/L/T=0/8/0  p=0.00781
+  phase_aware
+    mpjpe           n=8   mean diff=+0.0156  W/L/T=1/7/0  p=0.109
+    angle_error     n=8   mean diff=+3.0623  W/L/T=3/5/0  p=0.195
+    phase_recall    n=7   mean diff=+0.2000  W/L/T=5/0/2  p=0.0625
+    impact_dist     n=8   mean diff=+0.0000  W/L/T=3/3/2  p=1
+    info_per_frame  n=8   mean diff=-0.0171  W/L/T=1/7/0  p=0.0547
+
+--- K=12 ---
+  motion_aware
+    mpjpe           n=8   mean diff=+0.0014  W/L/T=3/5/0  p=0.383
+    angle_error     n=8   mean diff=-0.3534  W/L/T=5/3/0  p=0.742
+    phase_recall    n=7   mean diff=-0.0857  W/L/T=0/3/4  p=0.25
+    impact_dist     n=8   mean diff=-0.3750  W/L/T=3/0/5  p=0.25
+    info_per_frame  n=8   mean diff=-0.0009  W/L/T=3/5/0  p=0.383
+  hybrid
+    mpjpe           n=8   mean diff=+0.0075  W/L/T=1/7/0  p=0.0391
+    angle_error     n=8   mean diff=+3.1522  W/L/T=1/7/0  p=0.0156
+    phase_recall    n=7   mean diff=+0.0571  W/L/T=2/1/4  p=0.75
+    impact_dist     n=8   mean diff=+0.0000  W/L/T=3/2/3  p=1
+    info_per_frame  n=8   mean diff=-0.0059  W/L/T=1/7/0  p=0.0391
+  phase_aware
+    mpjpe           n=8   mean diff=+0.0044  W/L/T=1/7/0  p=0.148
+    angle_error     n=8   mean diff=+2.7299  W/L/T=2/6/0  p=0.148
+    phase_recall    n=7   mean diff=+0.1143  W/L/T=3/0/4  p=0.25
+    impact_dist     n=8   mean diff=-0.1250  W/L/T=3/2/3  p=1
+    info_per_frame  n=8   mean diff=-0.0041  W/L/T=1/7/0  p=0.0547
+
+--- K=16 ---
+  motion_aware
+    mpjpe           n=8   mean diff=+0.0011  W/L/T=5/3/0  p=0.945
+    angle_error     n=8   mean diff=+0.0926  W/L/T=4/4/0  p=1
+    phase_recall    n=7   mean diff=-0.0857  W/L/T=0/2/5  p=0.5
+    impact_dist     n=8   mean diff=-0.2500  W/L/T=3/1/4  p=0.625
+    info_per_frame  n=8   mean diff=-0.0007  W/L/T=5/3/0  p=1
+  hybrid
+    mpjpe           n=8   mean diff=+0.0021  W/L/T=3/5/0  p=0.312
+    angle_error     n=8   mean diff=+2.5166  W/L/T=2/6/0  p=0.0391
+    phase_recall    n=7   mean diff=+0.0286  W/L/T=1/1/5  p=1
+    impact_dist     n=8   mean diff=-0.3750  W/L/T=3/0/5  p=0.25
+    info_per_frame  n=8   mean diff=-0.0016  W/L/T=3/5/0  p=0.25
+  phase_aware
+    mpjpe           n=8   mean diff=+0.0016  W/L/T=3/5/0  p=0.547
+    angle_error     n=8   mean diff=+3.0275  W/L/T=1/7/0  p=0.0156
+    phase_recall    n=7   mean diff=+0.0571  W/L/T=1/0/6  p=1
+    impact_dist     n=8   mean diff=-0.2500  W/L/T=2/0/6  p=0.5
+    info_per_frame  n=8   mean diff=-0.0013  W/L/T=3/5/0  p=0.461
+
+================================================================================
+PAIRED COMPARISON VS UNIFORM - clips where phase_aware ran (wins = better than uniform on that clip)
+p-values only shown with >= 5 clips; with few clips treat them as indicative.
+================================================================================
+
+--- K=3 ---
+  motion_aware
+    mpjpe           n=7   mean diff=-0.0020  W/L/T=5/2/0  p=0.688
+    angle_error     n=7   mean diff=+4.6482  W/L/T=1/6/0  p=0.0469
+    phase_recall    n=7   mean diff=-0.0571  W/L/T=1/2/4  p=0.75
+    impact_dist     n=7   mean diff=-1.2857  W/L/T=5/2/0  p=0.156
+    info_per_frame  n=7   mean diff=-0.0041  W/L/T=5/2/0  p=0.812
+  hybrid
+    mpjpe           n=7   mean diff=+0.0291  W/L/T=2/5/0  p=0.0781
+    angle_error     n=7   mean diff=+4.6375  W/L/T=1/6/0  p=0.0312
+    phase_recall    n=7   mean diff=+0.0286  W/L/T=1/0/6  p=1
+    impact_dist     n=7   mean diff=-0.4286  W/L/T=4/2/1  p=0.719
+    info_per_frame  n=7   mean diff=-0.0645  W/L/T=2/5/0  p=0.0781
+  phase_aware
+    mpjpe           n=7   mean diff=+0.0200  W/L/T=1/6/0  p=0.0469
+    angle_error     n=7   mean diff=+5.0753  W/L/T=0/7/0  p=0.0156
+    phase_recall    n=7   mean diff=+0.0571  W/L/T=3/1/3  p=0.75
+    impact_dist     n=7   mean diff=-0.5714  W/L/T=5/2/0  p=0.469
+    info_per_frame  n=7   mean diff=-0.0560  W/L/T=1/6/0  p=0.0312
+
+--- K=4 ---
+  motion_aware
+    mpjpe           n=7   mean diff=-0.0020  W/L/T=3/4/0  p=0.938
+    angle_error     n=7   mean diff=-1.2137  W/L/T=3/4/0  p=0.578
+    phase_recall    n=7   mean diff=-0.0286  W/L/T=1/1/5  p=1
+    impact_dist     n=7   mean diff=-1.2857  W/L/T=5/2/0  p=0.109
+    info_per_frame  n=7   mean diff=+0.0037  W/L/T=3/4/0  p=0.938
+  hybrid
+    mpjpe           n=7   mean diff=+0.0308  W/L/T=2/5/0  p=0.0781
+    angle_error     n=7   mean diff=+3.0150  W/L/T=3/4/0  p=0.375
+    phase_recall    n=7   mean diff=-0.0571  W/L/T=1/3/3  p=0.5
+    impact_dist     n=7   mean diff=-0.7143  W/L/T=4/1/2  p=0.5
+    info_per_frame  n=7   mean diff=-0.0645  W/L/T=2/5/0  p=0.0781
+  phase_aware
+    mpjpe           n=7   mean diff=+0.0256  W/L/T=2/5/0  p=0.0781
+    angle_error     n=7   mean diff=-0.2250  W/L/T=2/5/0  p=0.938
+    phase_recall    n=7   mean diff=+0.0857  W/L/T=2/1/4  p=0.75
+    impact_dist     n=7   mean diff=-0.8571  W/L/T=4/2/1  p=0.375
+    info_per_frame  n=7   mean diff=-0.0460  W/L/T=2/5/0  p=0.0781
+
+--- K=5 ---
+  motion_aware
+    mpjpe           n=7   mean diff=+0.0075  W/L/T=3/4/0  p=0.375
+    angle_error     n=7   mean diff=-0.0254  W/L/T=4/3/0  p=1
+    phase_recall    n=7   mean diff=-0.0286  W/L/T=1/2/4  p=1
+    impact_dist     n=7   mean diff=+0.1429  W/L/T=1/3/3  p=1
+    info_per_frame  n=7   mean diff=-0.0113  W/L/T=3/4/0  p=0.375
+  hybrid
+    mpjpe           n=7   mean diff=+0.0456  W/L/T=0/7/0  p=0.0156
+    angle_error     n=7   mean diff=+5.3375  W/L/T=0/7/0  p=0.0156
+    phase_recall    n=7   mean diff=-0.0571  W/L/T=1/4/2  p=0.688
+    impact_dist     n=7   mean diff=+0.8571  W/L/T=1/4/2  p=0.25
+    info_per_frame  n=7   mean diff=-0.0756  W/L/T=0/7/0  p=0.0156
+  phase_aware
+    mpjpe           n=7   mean diff=+0.0173  W/L/T=1/6/0  p=0.0469
+    angle_error     n=7   mean diff=+1.1896  W/L/T=2/5/0  p=0.156
+    phase_recall    n=7   mean diff=+0.2000  W/L/T=4/0/3  p=0.125
+    impact_dist     n=7   mean diff=+0.1429  W/L/T=4/3/0  p=0.938
+    info_per_frame  n=7   mean diff=-0.0289  W/L/T=1/6/0  p=0.0469
+
+--- K=6 ---
+  motion_aware
+    mpjpe           n=7   mean diff=+0.0039  W/L/T=2/5/0  p=0.469
+    angle_error     n=7   mean diff=+0.5885  W/L/T=2/5/0  p=0.375
+    phase_recall    n=7   mean diff=-0.1429  W/L/T=1/6/0  p=0.234
+    impact_dist     n=7   mean diff=+0.7143  W/L/T=2/5/0  p=0.25
+    info_per_frame  n=7   mean diff=-0.0048  W/L/T=2/5/0  p=0.469
+  hybrid
+    mpjpe           n=7   mean diff=+0.0297  W/L/T=0/7/0  p=0.0156
+    angle_error     n=7   mean diff=+2.1908  W/L/T=1/6/0  p=0.156
+    phase_recall    n=7   mean diff=-0.1143  W/L/T=2/5/0  p=0.469
+    impact_dist     n=7   mean diff=+1.1429  W/L/T=2/5/0  p=0.266
+    info_per_frame  n=7   mean diff=-0.0402  W/L/T=0/7/0  p=0.0156
+  phase_aware
+    mpjpe           n=7   mean diff=+0.0212  W/L/T=1/6/0  p=0.0312
+    angle_error     n=7   mean diff=+1.6501  W/L/T=3/4/0  p=0.578
+    phase_recall    n=7   mean diff=+0.0857  W/L/T=2/1/4  p=0.5
+    impact_dist     n=7   mean diff=+0.4286  W/L/T=2/2/3  p=0.75
+    info_per_frame  n=7   mean diff=-0.0289  W/L/T=1/6/0  p=0.0312
+
+--- K=8 ---
+  motion_aware
+    mpjpe           n=7   mean diff=+0.0027  W/L/T=3/4/0  p=0.375
+    angle_error     n=7   mean diff=+0.1805  W/L/T=3/4/0  p=0.938
+    phase_recall    n=7   mean diff=-0.0571  W/L/T=1/4/2  p=0.688
+    impact_dist     n=7   mean diff=-0.4286  W/L/T=2/0/5  p=0.5
+    info_per_frame  n=7   mean diff=-0.0027  W/L/T=3/4/0  p=0.219
+  hybrid
+    mpjpe           n=7   mean diff=+0.0201  W/L/T=0/7/0  p=0.0156
+    angle_error     n=7   mean diff=+2.3679  W/L/T=1/6/0  p=0.0469
+    phase_recall    n=7   mean diff=+0.0000  W/L/T=2/2/3  p=1
+    impact_dist     n=7   mean diff=+0.2857  W/L/T=4/3/0  p=1
+    info_per_frame  n=7   mean diff=-0.0217  W/L/T=0/7/0  p=0.0156
+  phase_aware
+    mpjpe           n=7   mean diff=+0.0153  W/L/T=1/6/0  p=0.156
+    angle_error     n=7   mean diff=+1.7975  W/L/T=3/4/0  p=0.375
+    phase_recall    n=7   mean diff=+0.2000  W/L/T=5/0/2  p=0.0625
+    impact_dist     n=7   mean diff=-0.1429  W/L/T=3/2/2  p=1
+    info_per_frame  n=7   mean diff=-0.0164  W/L/T=1/6/0  p=0.109
+
+--- K=12 ---
+  motion_aware
+    mpjpe           n=7   mean diff=+0.0018  W/L/T=2/5/0  p=0.297
+    angle_error     n=7   mean diff=-0.0001  W/L/T=4/3/0  p=0.938
+    phase_recall    n=7   mean diff=-0.0857  W/L/T=0/3/4  p=0.25
+    impact_dist     n=7   mean diff=-0.2857  W/L/T=2/0/5  p=0.5
+    info_per_frame  n=7   mean diff=-0.0012  W/L/T=2/5/0  p=0.219
+  hybrid
+    mpjpe           n=7   mean diff=+0.0071  W/L/T=1/6/0  p=0.0781
+    angle_error     n=7   mean diff=+1.6433  W/L/T=1/6/0  p=0.0312
+    phase_recall    n=7   mean diff=+0.0571  W/L/T=2/1/4  p=0.75
+    impact_dist     n=7   mean diff=+0.1429  W/L/T=2/2/3  p=1
+    info_per_frame  n=7   mean diff=-0.0055  W/L/T=1/6/0  p=0.0781
+  phase_aware
+    mpjpe           n=7   mean diff=+0.0035  W/L/T=1/6/0  p=0.219
+    angle_error     n=7   mean diff=+1.1607  W/L/T=2/5/0  p=0.297
+    phase_recall    n=7   mean diff=+0.1143  W/L/T=3/0/4  p=0.25
+    impact_dist     n=7   mean diff=+0.0000  W/L/T=2/2/3  p=1
+    info_per_frame  n=7   mean diff=-0.0034  W/L/T=1/6/0  p=0.109
+
+--- K=16 ---
+  motion_aware
+    mpjpe           n=7   mean diff=+0.0014  W/L/T=4/3/0  p=0.938
+    angle_error     n=7   mean diff=+0.3431  W/L/T=3/4/0  p=0.688
+    phase_recall    n=7   mean diff=-0.0857  W/L/T=0/2/5  p=0.5
+    impact_dist     n=7   mean diff=-0.2857  W/L/T=3/1/3  p=0.625
+    info_per_frame  n=7   mean diff=-0.0009  W/L/T=4/3/0  p=0.812
+  hybrid
+    mpjpe           n=7   mean diff=+0.0010  W/L/T=3/4/0  p=0.578
+    angle_error     n=7   mean diff=+1.2495  W/L/T=2/5/0  p=0.0781
+    phase_recall    n=7   mean diff=+0.0286  W/L/T=1/1/5  p=1
+    impact_dist     n=7   mean diff=-0.4286  W/L/T=3/0/4  p=0.25
+    info_per_frame  n=7   mean diff=-0.0009  W/L/T=3/4/0  p=0.469
+  phase_aware
+    mpjpe           n=7   mean diff=+0.0004  W/L/T=3/4/0  p=0.938
+    angle_error     n=7   mean diff=+1.8334  W/L/T=1/6/0  p=0.0312
+    phase_recall    n=7   mean diff=+0.0571  W/L/T=1/0/6  p=1
+    impact_dist     n=7   mean diff=-0.2857  W/L/T=2/0/5  p=0.5
+    info_per_frame  n=7   mean diff=-0.0006  W/L/T=3/4/0  p=0.812
+
+[OK] JSON: C:\Users\ADMIN\Downloads\Cricket3D_Motion-20261031T055529Z-1-001\Cricket3D_Motion\reports\reconstruction_evaluation.json
+[OK] CSV: C:\Users\ADMIN\Downloads\Cricket3D_Motion-20261031T055529Z-1-001\Cricket3D_Motion\reports\reconstruction_evaluation.csv
+[OK] Chart: C:\Users\ADMIN\Downloads\Cricket3D_Motion-20261031T055529Z-1-001\Cricket3D_Motion\reports\reconstruction_error_vs_k.html
+
+NOTE: MPJPE is in normalised image coordinates (0-1), not metres.
+Ground truth = MediaPipe pose on every frame (short gaps interpolated).
+This measures sampling fidelity, not true pose accuracy.

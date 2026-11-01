@@ -1,0 +1,17 @@
+{
+  "Cover Drive/vid100_41.avi": {
+    "clip": "Cover Drive/vid100_41.avi",
+    "impact_frame": 18,
+    "total_frames": 24
+  },
+  "Straight Drive/vid100_45.avi": {
+    "clip": "Straight Drive/vid100_45.avi",
+    "impact_frame": 12,
+    "total_frames": 24
+  },
+  "Defensive/vid100_14.avi": {
+    "clip": "Defensive/vid100_14.avi",
+    "impact_frame": 2,
+    "total_frames": 24
+  }
+}

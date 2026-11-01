@@ -1,0 +1,5314 @@
+[
+  {
+    "clip_name": "vid100_41.avi",
+    "class": "Cover Drive",
+    "total_frames": 24,
+    "detected_frames": 16,
+    "phase_success": true,
+    "impact_frame_estimated": 11,
+    "impact_frame_manual": 18,
+    "impact_frame_used": 18,
+    "impact_uncertain": true,
+    "phase_aware_fallback_ks": [],
+    "phase_aware_errors": 0,
+    "per_k_results": {
+      "3": {
+        "uniform": {
+          "selected": [
+            0,
+            12,
+            23
+          ],
+          "mpjpe": 0.113992,
+          "angle_error": 26.9065,
+          "phase_recall": 0.6,
+          "impact_dist": 5,
+          "info_per_frame": 0.029899,
+          "runtime_ms": 0.0647
+        },
+        "motion_aware": {
+          "selected": [
+            7,
+            14,
+            16
+          ],
+          "mpjpe": 0.098222,
+          "angle_error": 36.44,
+          "phase_recall": 0.6,
+          "impact_dist": 2,
+          "info_per_frame": 0.071877,
+          "runtime_ms": 0.0761
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            14,
+            23
+          ],
+          "mpjpe": 0.133365,
+          "angle_error": 30.5343,
+          "phase_recall": 0.6,
+          "impact_dist": 4,
+          "info_per_frame": -0.02167,
+          "runtime_ms": 0.0172
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            14,
+            23
+          ],
+          "mpjpe": 0.133365,
+          "angle_error": 30.5343,
+          "phase_recall": 0.6,
+          "impact_dist": 4,
+          "info_per_frame": -0.02167,
+          "runtime_ms": 4.6741,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            6,
+            23
+          ],
+          "mpjpe": 0.106787,
+          "angle_error": 42.4897,
+          "phase_recall": 0.6,
+          "impact_dist": 5,
+          "info_per_frame": 0.049078,
+          "runtime_ms": 8.0404
+        }
+      },
+      "4": {
+        "uniform": {
+          "selected": [
+            0,
+            8,
+            15,
+            23
+          ],
+          "mpjpe": 0.120438,
+          "angle_error": 29.5792,
+          "phase_recall": 0.6,
+          "impact_dist": 3,
+          "info_per_frame": 0.009556,
+          "runtime_ms": 0.0433
+        },
+        "motion_aware": {
+          "selected": [
+            5,
+            9,
+            14,
+            18
+          ],
+          "mpjpe": 0.087162,
+          "angle_error": 22.5598,
+          "phase_recall": 0.6,
+          "impact_dist": 0,
+          "info_per_frame": 0.075988,
+          "runtime_ms": 0.0646
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            14,
+            15,
+            23
+          ],
+          "mpjpe": 0.138708,
+          "angle_error": 27.4351,
+          "phase_recall": 0.6,
+          "impact_dist": 3,
+          "info_per_frame": -0.026919,
+          "runtime_ms": 0.0155
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            12,
+            14,
+            23
+          ],
+          "mpjpe": 0.115102,
+          "angle_error": 25.3943,
+          "phase_recall": 0.6,
+          "impact_dist": 4,
+          "info_per_frame": 0.020208,
+          "runtime_ms": 5.55,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            6,
+            12,
+            23
+          ],
+          "mpjpe": 0.083323,
+          "angle_error": 30.006,
+          "phase_recall": 0.8,
+          "impact_dist": 5,
+          "info_per_frame": 0.083653,
+          "runtime_ms": 16.3786
+        }
+      },
+      "5": {
+        "uniform": {
+          "selected": [
+            0,
+            6,
+            12,
+            17,
+            23
+          ],
+          "mpjpe": 0.073009,
+          "angle_error": 21.4567,
+          "phase_recall": 0.8,
+          "impact_dist": 1,
+          "info_per_frame": 0.083394,
+          "runtime_ms": 0.0401
+        },
+        "motion_aware": {
+          "selected": [
+            1,
+            9,
+            14,
+            15,
+            20
+          ],
+          "mpjpe": 0.099879,
+          "angle_error": 25.1594,
+          "phase_recall": 0.6,
+          "impact_dist": 2,
+          "info_per_frame": 0.04048,
+          "runtime_ms": 0.0644
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            13,
+            14,
+            15,
+            23
+          ],
+          "mpjpe": 0.137352,
+          "angle_error": 24.7227,
+          "phase_recall": 0.6,
+          "impact_dist": 3,
+          "info_per_frame": -0.019369,
+          "runtime_ms": 0.0149
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            11,
+            12,
+            14,
+            23
+          ],
+          "mpjpe": 0.132137,
+          "angle_error": 27.5033,
+          "phase_recall": 0.8,
+          "impact_dist": 4,
+          "info_per_frame": -0.011041,
+          "runtime_ms": 4.276,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            6,
+            12,
+            18,
+            23
+          ],
+          "mpjpe": 0.072055,
+          "angle_error": 21.1462,
+          "phase_recall": 0.8,
+          "impact_dist": 0,
+          "info_per_frame": 0.084919,
+          "runtime_ms": 25.4112
+        }
+      },
+      "6": {
+        "uniform": {
+          "selected": [
+            0,
+            5,
+            9,
+            14,
+            18,
+            23
+          ],
+          "mpjpe": 0.064414,
+          "angle_error": 16.7276,
+          "phase_recall": 0.8,
+          "impact_dist": 0,
+          "info_per_frame": 0.080936,
+          "runtime_ms": 0.0422
+        },
+        "motion_aware": {
+          "selected": [
+            1,
+            7,
+            9,
+            14,
+            16,
+            20
+          ],
+          "mpjpe": 0.057348,
+          "angle_error": 20.2396,
+          "phase_recall": 0.6,
+          "impact_dist": 2,
+          "info_per_frame": 0.09034,
+          "runtime_ms": 0.0702
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            12,
+            13,
+            14,
+            15,
+            23
+          ],
+          "mpjpe": 0.116372,
+          "angle_error": 22.1397,
+          "phase_recall": 0.6,
+          "impact_dist": 3,
+          "info_per_frame": 0.011782,
+          "runtime_ms": 0.0146
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            11,
+            12,
+            13,
+            14,
+            23
+          ],
+          "mpjpe": 0.128064,
+          "angle_error": 27.3479,
+          "phase_recall": 0.8,
+          "impact_dist": 4,
+          "info_per_frame": -0.00378,
+          "runtime_ms": 4.3348,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            6,
+            12,
+            13,
+            18,
+            23
+          ],
+          "mpjpe": 0.055251,
+          "angle_error": 19.4083,
+          "phase_recall": 0.8,
+          "impact_dist": 0,
+          "info_per_frame": 0.09313,
+          "runtime_ms": 35.9321
+        }
+      },
+      "8": {
+        "uniform": {
+          "selected": [
+            0,
+            3,
+            7,
+            10,
+            13,
+            16,
+            20,
+            23
+          ],
+          "mpjpe": 0.047501,
+          "angle_error": 16.86,
+          "phase_recall": 0.8,
+          "impact_dist": 2,
+          "info_per_frame": 0.077584,
+          "runtime_ms": 0.0429
+        },
+        "motion_aware": {
+          "selected": [
+            1,
+            5,
+            8,
+            9,
+            14,
+            15,
+            18,
+            22
+          ],
+          "mpjpe": 0.054976,
+          "angle_error": 17.231,
+          "phase_recall": 0.6,
+          "impact_dist": 0,
+          "info_per_frame": 0.070122,
+          "runtime_ms": 0.0896
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            9,
+            10,
+            12,
+            13,
+            14,
+            15,
+            23
+          ],
+          "mpjpe": 0.096262,
+          "angle_error": 23.9653,
+          "phase_recall": 0.8,
+          "impact_dist": 3,
+          "info_per_frame": 0.02891,
+          "runtime_ms": 0.0147
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            1,
+            10,
+            11,
+            12,
+            13,
+            14,
+            23
+          ],
+          "mpjpe": 0.101034,
+          "angle_error": 24.6553,
+          "phase_recall": 1.0,
+          "impact_dist": 4,
+          "info_per_frame": 0.024147,
+          "runtime_ms": 4.2654,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            6,
+            8,
+            11,
+            12,
+            13,
+            18,
+            23
+          ],
+          "mpjpe": 0.03298,
+          "angle_error": 10.1216,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.092079,
+          "runtime_ms": 46.8016
+        }
+      },
+      "12": {
+        "uniform": {
+          "selected": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23
+          ],
+          "mpjpe": 0.026104,
+          "angle_error": 8.2784,
+          "phase_recall": 0.8,
+          "impact_dist": 1,
+          "info_per_frame": 0.065962,
+          "runtime_ms": 0.0427
+        },
+        "motion_aware": {
+          "selected": [
+            1,
+            2,
+            5,
+            7,
+            9,
+            10,
+            13,
+            14,
+            16,
+            18,
+            20,
+            22
+          ],
+          "mpjpe": 0.031845,
+          "angle_error": 9.3764,
+          "phase_recall": 0.6,
+          "impact_dist": 0,
+          "info_per_frame": 0.062141,
+          "runtime_ms": 0.1
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            23
+          ],
+          "mpjpe": 0.018575,
+          "angle_error": 10.3331,
+          "phase_recall": 1.0,
+          "impact_dist": 2,
+          "info_per_frame": 0.070972,
+          "runtime_ms": 0.0152
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            1,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            23
+          ],
+          "mpjpe": 0.026152,
+          "angle_error": 12.0513,
+          "phase_recall": 1.0,
+          "impact_dist": 2,
+          "info_per_frame": 0.06593,
+          "runtime_ms": 6.2259,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            6,
+            8,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            18,
+            20,
+            23
+          ],
+          "mpjpe": 0.011604,
+          "angle_error": 6.5419,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.075611,
+          "runtime_ms": 70.5259
+        }
+      },
+      "16": {
+        "uniform": {
+          "selected": [
+            0,
+            2,
+            3,
+            5,
+            6,
+            8,
+            9,
+            11,
+            12,
+            14,
+            15,
+            17,
+            18,
+            20,
+            21,
+            23
+          ],
+          "mpjpe": 0.016241,
+          "angle_error": 3.3374,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.054394,
+          "runtime_ms": 0.0437
+        },
+        "motion_aware": {
+          "selected": [
+            1,
+            2,
+            5,
+            7,
+            9,
+            10,
+            13,
+            14,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.027827,
+          "angle_error": 5.6298,
+          "phase_recall": 0.6,
+          "impact_dist": 0,
+          "info_per_frame": 0.048611,
+          "runtime_ms": 0.1165
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            23
+          ],
+          "mpjpe": 0.009734,
+          "angle_error": 6.1158,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.057642,
+          "runtime_ms": 0.0151
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            1,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            23
+          ],
+          "mpjpe": 0.010924,
+          "angle_error": 9.7158,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.057048,
+          "runtime_ms": 6.7854,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            2,
+            4,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            18,
+            20,
+            21,
+            23
+          ],
+          "mpjpe": 0.002168,
+          "angle_error": 1.6134,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.061418,
+          "runtime_ms": 88.2265
+        }
+      }
+    }
+  },
+  {
+    "clip_name": "vid100_14.avi",
+    "class": "Defensive",
+    "total_frames": 24,
+    "detected_frames": 19,
+    "phase_success": true,
+    "impact_frame_estimated": 4,
+    "impact_frame_manual": null,
+    "impact_frame_used": 4,
+    "impact_uncertain": true,
+    "phase_aware_fallback_ks": [],
+    "phase_aware_errors": 0,
+    "per_k_results": {
+      "3": {
+        "uniform": {
+          "selected": [
+            0,
+            12,
+            23
+          ],
+          "mpjpe": 0.090259,
+          "angle_error": 13.0894,
+          "phase_recall": 0.4,
+          "impact_dist": 4,
+          "info_per_frame": 0.188206,
+          "runtime_ms": 0.0561
+        },
+        "motion_aware": {
+          "selected": [
+            6,
+            11,
+            22
+          ],
+          "mpjpe": 0.061816,
+          "angle_error": 15.564,
+          "phase_recall": 0.2,
+          "impact_dist": 2,
+          "info_per_frame": 0.23394,
+          "runtime_ms": 0.0714
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            22,
+            23
+          ],
+          "mpjpe": 0.194217,
+          "angle_error": 14.236,
+          "phase_recall": 0.4,
+          "impact_dist": 4,
+          "info_per_frame": 0.021051,
+          "runtime_ms": 0.0185
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            2,
+            23
+          ],
+          "mpjpe": 0.114782,
+          "angle_error": 14.734,
+          "phase_recall": 0.6,
+          "impact_dist": 2,
+          "info_per_frame": 0.148774,
+          "runtime_ms": 4.6812,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            6,
+            23
+          ],
+          "mpjpe": 0.034212,
+          "angle_error": 12.2164,
+          "phase_recall": 0.4,
+          "impact_dist": 2,
+          "info_per_frame": 0.278324,
+          "runtime_ms": 7.7774
+        }
+      },
+      "4": {
+        "uniform": {
+          "selected": [
+            0,
+            8,
+            15,
+            23
+          ],
+          "mpjpe": 0.047099,
+          "angle_error": 12.3501,
+          "phase_recall": 0.4,
+          "impact_dist": 4,
+          "info_per_frame": 0.193202,
+          "runtime_ms": 0.0393
+        },
+        "motion_aware": {
+          "selected": [
+            0,
+            6,
+            12,
+            22
+          ],
+          "mpjpe": 0.028682,
+          "angle_error": 12.4939,
+          "phase_recall": 0.4,
+          "impact_dist": 2,
+          "info_per_frame": 0.215411,
+          "runtime_ms": 0.0595
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            6,
+            22,
+            23
+          ],
+          "mpjpe": 0.030572,
+          "angle_error": 12.3101,
+          "phase_recall": 0.4,
+          "impact_dist": 2,
+          "info_per_frame": 0.213133,
+          "runtime_ms": 0.0134
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            1,
+            2,
+            23
+          ],
+          "mpjpe": 0.114782,
+          "angle_error": 14.734,
+          "phase_recall": 1.0,
+          "impact_dist": 2,
+          "info_per_frame": 0.111581,
+          "runtime_ms": 5.5555,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            4,
+            6,
+            23
+          ],
+          "mpjpe": 0.016123,
+          "angle_error": 9.8364,
+          "phase_recall": 0.6,
+          "impact_dist": 0,
+          "info_per_frame": 0.230557,
+          "runtime_ms": 16.4995
+        }
+      },
+      "5": {
+        "uniform": {
+          "selected": [
+            0,
+            6,
+            12,
+            17,
+            23
+          ],
+          "mpjpe": 0.026769,
+          "angle_error": 10.9233,
+          "phase_recall": 0.4,
+          "impact_dist": 2,
+          "info_per_frame": 0.174175,
+          "runtime_ms": 0.0505
+        },
+        "motion_aware": {
+          "selected": [
+            0,
+            6,
+            11,
+            15,
+            22
+          ],
+          "mpjpe": 0.026617,
+          "angle_error": 10.293,
+          "phase_recall": 0.4,
+          "impact_dist": 2,
+          "info_per_frame": 0.174322,
+          "runtime_ms": 0.0677
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            6,
+            7,
+            22,
+            23
+          ],
+          "mpjpe": 0.029106,
+          "angle_error": 11.6899,
+          "phase_recall": 0.4,
+          "impact_dist": 2,
+          "info_per_frame": 0.17192,
+          "runtime_ms": 0.0142
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            1,
+            2,
+            5,
+            23
+          ],
+          "mpjpe": 0.031862,
+          "angle_error": 12.0002,
+          "phase_recall": 1.0,
+          "impact_dist": 1,
+          "info_per_frame": 0.169262,
+          "runtime_ms": 4.0888,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            4,
+            6,
+            16,
+            23
+          ],
+          "mpjpe": 0.010036,
+          "angle_error": 9.5798,
+          "phase_recall": 0.6,
+          "impact_dist": 0,
+          "info_per_frame": 0.190318,
+          "runtime_ms": 24.6112
+        }
+      },
+      "6": {
+        "uniform": {
+          "selected": [
+            0,
+            5,
+            9,
+            14,
+            18,
+            23
+          ],
+          "mpjpe": 0.01982,
+          "angle_error": 10.2436,
+          "phase_recall": 0.6,
+          "impact_dist": 1,
+          "info_per_frame": 0.150732,
+          "runtime_ms": 0.0419
+        },
+        "motion_aware": {
+          "selected": [
+            0,
+            6,
+            11,
+            12,
+            16,
+            22
+          ],
+          "mpjpe": 0.02624,
+          "angle_error": 10.1232,
+          "phase_recall": 0.4,
+          "impact_dist": 2,
+          "info_per_frame": 0.145571,
+          "runtime_ms": 0.069
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            1,
+            6,
+            7,
+            22,
+            23
+          ],
+          "mpjpe": 0.024584,
+          "angle_error": 11.2291,
+          "phase_recall": 0.8,
+          "impact_dist": 2,
+          "info_per_frame": 0.146903,
+          "runtime_ms": 0.0135
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            1,
+            2,
+            5,
+            22,
+            23
+          ],
+          "mpjpe": 0.028145,
+          "angle_error": 11.8459,
+          "phase_recall": 1.0,
+          "impact_dist": 1,
+          "info_per_frame": 0.144039,
+          "runtime_ms": 4.2374,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            4,
+            6,
+            11,
+            16,
+            23
+          ],
+          "mpjpe": 0.008286,
+          "angle_error": 8.7895,
+          "phase_recall": 0.6,
+          "impact_dist": 0,
+          "info_per_frame": 0.160005,
+          "runtime_ms": 31.9254
+        }
+      },
+      "8": {
+        "uniform": {
+          "selected": [
+            0,
+            3,
+            7,
+            10,
+            13,
+            16,
+            20,
+            23
+          ],
+          "mpjpe": 0.013237,
+          "angle_error": 8.1393,
+          "phase_recall": 0.6,
+          "impact_dist": 1,
+          "info_per_frame": 0.117018,
+          "runtime_ms": 0.0443
+        },
+        "motion_aware": {
+          "selected": [
+            0,
+            4,
+            6,
+            11,
+            12,
+            15,
+            18,
+            22
+          ],
+          "mpjpe": 0.007861,
+          "angle_error": 7.0535,
+          "phase_recall": 0.6,
+          "impact_dist": 0,
+          "info_per_frame": 0.12026,
+          "runtime_ms": 0.0803
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            1,
+            6,
+            7,
+            11,
+            12,
+            22,
+            23
+          ],
+          "mpjpe": 0.02219,
+          "angle_error": 9.8067,
+          "phase_recall": 0.8,
+          "impact_dist": 2,
+          "info_per_frame": 0.11162,
+          "runtime_ms": 0.0232
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            1,
+            2,
+            5,
+            6,
+            7,
+            22,
+            23
+          ],
+          "mpjpe": 0.015539,
+          "angle_error": 10.3853,
+          "phase_recall": 1.0,
+          "impact_dist": 1,
+          "info_per_frame": 0.11563,
+          "runtime_ms": 4.3767,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            4,
+            6,
+            8,
+            10,
+            11,
+            16,
+            23
+          ],
+          "mpjpe": 0.004938,
+          "angle_error": 7.18,
+          "phase_recall": 0.6,
+          "impact_dist": 0,
+          "info_per_frame": 0.122023,
+          "runtime_ms": 49.1641
+        }
+      },
+      "12": {
+        "uniform": {
+          "selected": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23
+          ],
+          "mpjpe": 0.004332,
+          "angle_error": 4.5899,
+          "phase_recall": 0.6,
+          "impact_dist": 0,
+          "info_per_frame": 0.081592,
+          "runtime_ms": 0.0408
+        },
+        "motion_aware": {
+          "selected": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            11,
+            12,
+            14,
+            16,
+            18,
+            21,
+            22
+          ],
+          "mpjpe": 0.005877,
+          "angle_error": 3.9063,
+          "phase_recall": 0.6,
+          "impact_dist": 0,
+          "info_per_frame": 0.080971,
+          "runtime_ms": 0.096
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            1,
+            4,
+            5,
+            6,
+            7,
+            11,
+            12,
+            14,
+            15,
+            22,
+            23
+          ],
+          "mpjpe": 0.006263,
+          "angle_error": 5.2136,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.080816,
+          "runtime_ms": 0.0163
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            11,
+            12,
+            14,
+            22,
+            23
+          ],
+          "mpjpe": 0.006542,
+          "angle_error": 5.8523,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.080704,
+          "runtime_ms": 4.4558,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            4,
+            6,
+            8,
+            9,
+            10,
+            11,
+            14,
+            16,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.002288,
+          "angle_error": 2.3849,
+          "phase_recall": 0.6,
+          "impact_dist": 0,
+          "info_per_frame": 0.082414,
+          "runtime_ms": 78.6063
+        }
+      },
+      "16": {
+        "uniform": {
+          "selected": [
+            0,
+            2,
+            3,
+            5,
+            6,
+            8,
+            9,
+            11,
+            12,
+            14,
+            15,
+            17,
+            18,
+            20,
+            21,
+            23
+          ],
+          "mpjpe": 0.004553,
+          "angle_error": 2.3274,
+          "phase_recall": 0.6,
+          "impact_dist": 1,
+          "info_per_frame": 0.061127,
+          "runtime_ms": 0.0443
+        },
+        "motion_aware": {
+          "selected": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            11,
+            12,
+            14,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.003857,
+          "angle_error": 2.551,
+          "phase_recall": 0.6,
+          "impact_dist": 0,
+          "info_per_frame": 0.061337,
+          "runtime_ms": 0.1195
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            1,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            13,
+            14,
+            15,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.003194,
+          "angle_error": 2.2388,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.061537,
+          "runtime_ms": 0.0155
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            13,
+            14,
+            15,
+            22,
+            23
+          ],
+          "mpjpe": 0.003593,
+          "angle_error": 2.8204,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.061417,
+          "runtime_ms": 6.1069,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            4,
+            6,
+            8,
+            9,
+            10,
+            11,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.000851,
+          "angle_error": 0.7961,
+          "phase_recall": 0.6,
+          "impact_dist": 0,
+          "info_per_frame": 0.062244,
+          "runtime_ms": 97.11
+        }
+      }
+    }
+  },
+  {
+    "clip_name": "vid100_38.avi",
+    "class": "Flick",
+    "total_frames": 24,
+    "detected_frames": 16,
+    "phase_success": true,
+    "impact_frame_estimated": 11,
+    "impact_frame_manual": null,
+    "impact_frame_used": 11,
+    "impact_uncertain": true,
+    "phase_aware_fallback_ks": [],
+    "phase_aware_errors": 0,
+    "per_k_results": {
+      "3": {
+        "uniform": {
+          "selected": [
+            0,
+            12,
+            23
+          ],
+          "mpjpe": 0.050357,
+          "angle_error": 12.6397,
+          "phase_recall": 0.6,
+          "impact_dist": 1,
+          "info_per_frame": 0.100016,
+          "runtime_ms": 0.1355
+        },
+        "motion_aware": {
+          "selected": [
+            7,
+            8,
+            16
+          ],
+          "mpjpe": 0.048479,
+          "angle_error": 16.1223,
+          "phase_recall": 0.8,
+          "impact_dist": 3,
+          "info_per_frame": 0.108717,
+          "runtime_ms": 0.0572
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            8,
+            23
+          ],
+          "mpjpe": 0.064383,
+          "angle_error": 13.0879,
+          "phase_recall": 0.8,
+          "impact_dist": 3,
+          "info_per_frame": 0.03503,
+          "runtime_ms": 0.0134
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            8,
+            23
+          ],
+          "mpjpe": 0.064383,
+          "angle_error": 13.0879,
+          "phase_recall": 0.8,
+          "impact_dist": 3,
+          "info_per_frame": 0.03503,
+          "runtime_ms": 4.4884,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            16,
+            23
+          ],
+          "mpjpe": 0.040206,
+          "angle_error": 12.3953,
+          "phase_recall": 0.4,
+          "impact_dist": 5,
+          "info_per_frame": 0.147049,
+          "runtime_ms": 8.7218
+        }
+      },
+      "4": {
+        "uniform": {
+          "selected": [
+            0,
+            8,
+            15,
+            23
+          ],
+          "mpjpe": 0.03403,
+          "angle_error": 11.042,
+          "phase_recall": 0.8,
+          "impact_dist": 3,
+          "info_per_frame": 0.131747,
+          "runtime_ms": 0.0939
+        },
+        "motion_aware": {
+          "selected": [
+            5,
+            8,
+            12,
+            18
+          ],
+          "mpjpe": 0.030499,
+          "angle_error": 9.6964,
+          "phase_recall": 1.0,
+          "impact_dist": 1,
+          "info_per_frame": 0.14402,
+          "runtime_ms": 0.0677
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            8,
+            9,
+            23
+          ],
+          "mpjpe": 0.057808,
+          "angle_error": 11.2153,
+          "phase_recall": 1.0,
+          "impact_dist": 2,
+          "info_per_frame": 0.049123,
+          "runtime_ms": 0.0145
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            8,
+            9,
+            23
+          ],
+          "mpjpe": 0.057808,
+          "angle_error": 11.2153,
+          "phase_recall": 1.0,
+          "impact_dist": 2,
+          "info_per_frame": 0.049123,
+          "runtime_ms": 4.375,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            6,
+            16,
+            23
+          ],
+          "mpjpe": 0.029366,
+          "angle_error": 10.0981,
+          "phase_recall": 0.4,
+          "impact_dist": 5,
+          "info_per_frame": 0.147956,
+          "runtime_ms": 16.5106
+        }
+      },
+      "5": {
+        "uniform": {
+          "selected": [
+            0,
+            6,
+            12,
+            17,
+            23
+          ],
+          "mpjpe": 0.024687,
+          "angle_error": 10.0036,
+          "phase_recall": 0.6,
+          "impact_dist": 1,
+          "info_per_frame": 0.13137,
+          "runtime_ms": 0.0413
+        },
+        "motion_aware": {
+          "selected": [
+            4,
+            8,
+            10,
+            15,
+            20
+          ],
+          "mpjpe": 0.023619,
+          "angle_error": 8.6475,
+          "phase_recall": 1.0,
+          "impact_dist": 1,
+          "info_per_frame": 0.134341,
+          "runtime_ms": 0.0647
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            7,
+            8,
+            9,
+            23
+          ],
+          "mpjpe": 0.054614,
+          "angle_error": 10.5901,
+          "phase_recall": 1.0,
+          "impact_dist": 2,
+          "info_per_frame": 0.048177,
+          "runtime_ms": 0.0137
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            8,
+            9,
+            13,
+            23
+          ],
+          "mpjpe": 0.032265,
+          "angle_error": 9.8131,
+          "phase_recall": 1.0,
+          "impact_dist": 2,
+          "info_per_frame": 0.110306,
+          "runtime_ms": 5.6913,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            6,
+            13,
+            16,
+            23
+          ],
+          "mpjpe": 0.023089,
+          "angle_error": 10.1859,
+          "phase_recall": 0.6,
+          "impact_dist": 2,
+          "info_per_frame": 0.135813,
+          "runtime_ms": 23.7207
+        }
+      },
+      "6": {
+        "uniform": {
+          "selected": [
+            0,
+            5,
+            9,
+            14,
+            18,
+            23
+          ],
+          "mpjpe": 0.021109,
+          "angle_error": 7.0246,
+          "phase_recall": 0.6,
+          "impact_dist": 2,
+          "info_per_frame": 0.117766,
+          "runtime_ms": 0.0435
+        },
+        "motion_aware": {
+          "selected": [
+            3,
+            7,
+            8,
+            12,
+            16,
+            20
+          ],
+          "mpjpe": 0.022716,
+          "angle_error": 8.5272,
+          "phase_recall": 1.0,
+          "impact_dist": 1,
+          "info_per_frame": 0.114042,
+          "runtime_ms": 0.0692
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            7,
+            8,
+            9,
+            10,
+            23
+          ],
+          "mpjpe": 0.033966,
+          "angle_error": 8.924,
+          "phase_recall": 1.0,
+          "impact_dist": 1,
+          "info_per_frame": 0.08798,
+          "runtime_ms": 0.0294
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            8,
+            9,
+            11,
+            13,
+            23
+          ],
+          "mpjpe": 0.028175,
+          "angle_error": 8.832,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.101395,
+          "runtime_ms": 4.0905,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            6,
+            13,
+            16,
+            20,
+            23
+          ],
+          "mpjpe": 0.019497,
+          "angle_error": 8.0162,
+          "phase_recall": 0.6,
+          "impact_dist": 2,
+          "info_per_frame": 0.121499,
+          "runtime_ms": 31.8533
+        }
+      },
+      "8": {
+        "uniform": {
+          "selected": [
+            0,
+            3,
+            7,
+            10,
+            13,
+            16,
+            20,
+            23
+          ],
+          "mpjpe": 0.017779,
+          "angle_error": 6.6455,
+          "phase_recall": 0.6,
+          "impact_dist": 1,
+          "info_per_frame": 0.094109,
+          "runtime_ms": 0.0404
+        },
+        "motion_aware": {
+          "selected": [
+            2,
+            5,
+            8,
+            9,
+            12,
+            15,
+            18,
+            21
+          ],
+          "mpjpe": 0.017422,
+          "angle_error": 6.986,
+          "phase_recall": 1.0,
+          "impact_dist": 1,
+          "info_per_frame": 0.09473,
+          "runtime_ms": 0.0783
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            23
+          ],
+          "mpjpe": 0.02948,
+          "angle_error": 10.8129,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.073779,
+          "runtime_ms": 0.0137
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            23
+          ],
+          "mpjpe": 0.022385,
+          "angle_error": 7.1868,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.086108,
+          "runtime_ms": 4.1539,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            6,
+            12,
+            13,
+            14,
+            16,
+            20,
+            23
+          ],
+          "mpjpe": 0.013277,
+          "angle_error": 7.1157,
+          "phase_recall": 0.6,
+          "impact_dist": 1,
+          "info_per_frame": 0.101932,
+          "runtime_ms": 46.4941
+        }
+      },
+      "12": {
+        "uniform": {
+          "selected": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23
+          ],
+          "mpjpe": 0.010531,
+          "angle_error": 3.2263,
+          "phase_recall": 1.0,
+          "impact_dist": 1,
+          "info_per_frame": 0.071136,
+          "runtime_ms": 0.0456
+        },
+        "motion_aware": {
+          "selected": [
+            1,
+            3,
+            5,
+            7,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22
+          ],
+          "mpjpe": 0.01062,
+          "angle_error": 4.5174,
+          "phase_recall": 1.0,
+          "impact_dist": 1,
+          "info_per_frame": 0.071032,
+          "runtime_ms": 0.0975
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            23
+          ],
+          "mpjpe": 0.018156,
+          "angle_error": 6.1948,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.062303,
+          "runtime_ms": 0.0135
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            23
+          ],
+          "mpjpe": 0.018156,
+          "angle_error": 6.1948,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.062303,
+          "runtime_ms": 5.7891,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            6,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            16,
+            17,
+            20,
+            23
+          ],
+          "mpjpe": 0.005199,
+          "angle_error": 3.392,
+          "phase_recall": 0.6,
+          "impact_dist": 0,
+          "info_per_frame": 0.077311,
+          "runtime_ms": 69.6269
+        }
+      },
+      "16": {
+        "uniform": {
+          "selected": [
+            0,
+            2,
+            3,
+            5,
+            6,
+            8,
+            9,
+            11,
+            12,
+            14,
+            15,
+            17,
+            18,
+            20,
+            21,
+            23
+          ],
+          "mpjpe": 0.006691,
+          "angle_error": 2.7577,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.056687,
+          "runtime_ms": 0.043
+        },
+        "motion_aware": {
+          "selected": [
+            1,
+            3,
+            5,
+            7,
+            8,
+            10,
+            12,
+            14,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.006453,
+          "angle_error": 1.9257,
+          "phase_recall": 1.0,
+          "impact_dist": 1,
+          "info_per_frame": 0.056894,
+          "runtime_ms": 0.1242
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            23
+          ],
+          "mpjpe": 0.013554,
+          "angle_error": 6.2933,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.050726,
+          "runtime_ms": 0.0146
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            23
+          ],
+          "mpjpe": 0.013554,
+          "angle_error": 6.2933,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.050726,
+          "runtime_ms": 5.074,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            23
+          ],
+          "mpjpe": 0.001172,
+          "angle_error": 0.9902,
+          "phase_recall": 0.6,
+          "impact_dist": 0,
+          "info_per_frame": 0.061482,
+          "runtime_ms": 86.8132
+        }
+      }
+    }
+  },
+  {
+    "clip_name": "vid101_23.avi",
+    "class": "Late Cut",
+    "total_frames": 24,
+    "detected_frames": 14,
+    "phase_success": true,
+    "impact_frame_estimated": 18,
+    "impact_frame_manual": null,
+    "impact_frame_used": 18,
+    "impact_uncertain": true,
+    "phase_aware_fallback_ks": [],
+    "phase_aware_errors": 0,
+    "per_k_results": {
+      "3": {
+        "uniform": {
+          "selected": [
+            0,
+            12,
+            23
+          ],
+          "mpjpe": 0.100158,
+          "angle_error": 13.2105,
+          "phase_recall": 0.6,
+          "impact_dist": 5,
+          "info_per_frame": 0.092591,
+          "runtime_ms": 0.0598
+        },
+        "motion_aware": {
+          "selected": [
+            7,
+            8,
+            22
+          ],
+          "mpjpe": 0.156552,
+          "angle_error": 14.6252,
+          "phase_recall": 0.6,
+          "impact_dist": 4,
+          "info_per_frame": -0.042958,
+          "runtime_ms": 0.0534
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            22,
+            23
+          ],
+          "mpjpe": 0.144685,
+          "angle_error": 17.0847,
+          "phase_recall": 0.6,
+          "impact_dist": 4,
+          "info_per_frame": -0.014436,
+          "runtime_ms": 0.0301
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            22,
+            23
+          ],
+          "mpjpe": 0.144685,
+          "angle_error": 17.0847,
+          "phase_recall": 0.6,
+          "impact_dist": 4,
+          "info_per_frame": -0.014436,
+          "runtime_ms": 4.4707,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            10,
+            23
+          ],
+          "mpjpe": 0.098427,
+          "angle_error": 12.7293,
+          "phase_recall": 0.6,
+          "impact_dist": 5,
+          "info_per_frame": 0.096752,
+          "runtime_ms": 7.7335
+        }
+      },
+      "4": {
+        "uniform": {
+          "selected": [
+            0,
+            8,
+            15,
+            23
+          ],
+          "mpjpe": 0.060548,
+          "angle_error": 9.4984,
+          "phase_recall": 0.8,
+          "impact_dist": 3,
+          "info_per_frame": 0.14085,
+          "runtime_ms": 0.0386
+        },
+        "motion_aware": {
+          "selected": [
+            4,
+            7,
+            12,
+            22
+          ],
+          "mpjpe": 0.098134,
+          "angle_error": 10.715,
+          "phase_recall": 0.8,
+          "impact_dist": 4,
+          "info_per_frame": 0.073092,
+          "runtime_ms": 0.0681
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.153252,
+          "angle_error": 13.4252,
+          "phase_recall": 0.6,
+          "impact_dist": 3,
+          "info_per_frame": -0.026271,
+          "runtime_ms": 0.0154
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            11,
+            22,
+            23
+          ],
+          "mpjpe": 0.099819,
+          "angle_error": 9.8445,
+          "phase_recall": 0.8,
+          "impact_dist": 4,
+          "info_per_frame": 0.070054,
+          "runtime_ms": 4.5376,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            10,
+            16,
+            23
+          ],
+          "mpjpe": 0.054425,
+          "angle_error": 13.2058,
+          "phase_recall": 0.8,
+          "impact_dist": 2,
+          "info_per_frame": 0.151886,
+          "runtime_ms": 16.3006
+        }
+      },
+      "5": {
+        "uniform": {
+          "selected": [
+            0,
+            6,
+            12,
+            17,
+            23
+          ],
+          "mpjpe": 0.058902,
+          "angle_error": 8.497,
+          "phase_recall": 0.8,
+          "impact_dist": 1,
+          "info_per_frame": 0.115053,
+          "runtime_ms": 0.0402
+        },
+        "motion_aware": {
+          "selected": [
+            4,
+            7,
+            11,
+            19,
+            22
+          ],
+          "mpjpe": 0.085561,
+          "angle_error": 10.2471,
+          "phase_recall": 0.8,
+          "impact_dist": 1,
+          "info_per_frame": 0.076606,
+          "runtime_ms": 0.0639
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            20,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.163193,
+          "angle_error": 19.9665,
+          "phase_recall": 0.6,
+          "impact_dist": 2,
+          "info_per_frame": -0.035353,
+          "runtime_ms": 0.0157
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            11,
+            18,
+            22,
+            23
+          ],
+          "mpjpe": 0.052161,
+          "angle_error": 8.9063,
+          "phase_recall": 0.8,
+          "impact_dist": 0,
+          "info_per_frame": 0.124774,
+          "runtime_ms": 4.7163,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            10,
+            16,
+            21,
+            23
+          ],
+          "mpjpe": 0.040145,
+          "angle_error": 10.7573,
+          "phase_recall": 1.0,
+          "impact_dist": 2,
+          "info_per_frame": 0.142104,
+          "runtime_ms": 23.7028
+        }
+      },
+      "6": {
+        "uniform": {
+          "selected": [
+            0,
+            5,
+            9,
+            14,
+            18,
+            23
+          ],
+          "mpjpe": 0.051305,
+          "angle_error": 8.7138,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.105007,
+          "runtime_ms": 0.0406
+        },
+        "motion_aware": {
+          "selected": [
+            3,
+            7,
+            8,
+            12,
+            19,
+            22
+          ],
+          "mpjpe": 0.070538,
+          "angle_error": 9.2124,
+          "phase_recall": 0.8,
+          "impact_dist": 1,
+          "info_per_frame": 0.081894,
+          "runtime_ms": 0.0699
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.096135,
+          "angle_error": 15.5826,
+          "phase_recall": 0.6,
+          "impact_dist": 1,
+          "info_per_frame": 0.05113,
+          "runtime_ms": 0.0141
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            11,
+            17,
+            18,
+            22,
+            23
+          ],
+          "mpjpe": 0.051086,
+          "angle_error": 7.7603,
+          "phase_recall": 0.8,
+          "impact_dist": 0,
+          "info_per_frame": 0.105271,
+          "runtime_ms": 5.1297,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            10,
+            16,
+            17,
+            21,
+            23
+          ],
+          "mpjpe": 0.029513,
+          "angle_error": 10.2444,
+          "phase_recall": 1.0,
+          "impact_dist": 1,
+          "info_per_frame": 0.131198,
+          "runtime_ms": 32.2776
+        }
+      },
+      "8": {
+        "uniform": {
+          "selected": [
+            0,
+            3,
+            7,
+            10,
+            13,
+            16,
+            20,
+            23
+          ],
+          "mpjpe": 0.035783,
+          "angle_error": 6.9497,
+          "phase_recall": 1.0,
+          "impact_dist": 2,
+          "info_per_frame": 0.092747,
+          "runtime_ms": 0.0419
+        },
+        "motion_aware": {
+          "selected": [
+            2,
+            4,
+            7,
+            11,
+            12,
+            16,
+            20,
+            22
+          ],
+          "mpjpe": 0.040908,
+          "angle_error": 8.0116,
+          "phase_recall": 0.8,
+          "impact_dist": 2,
+          "info_per_frame": 0.088127,
+          "runtime_ms": 0.0772
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            7,
+            8,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.061068,
+          "angle_error": 9.2194,
+          "phase_recall": 0.8,
+          "impact_dist": 1,
+          "info_per_frame": 0.069956,
+          "runtime_ms": 0.014
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            10,
+            11,
+            17,
+            18,
+            20,
+            22,
+            23
+          ],
+          "mpjpe": 0.015588,
+          "angle_error": 5.513,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.11095,
+          "runtime_ms": 4.1251,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            1,
+            9,
+            10,
+            16,
+            17,
+            21,
+            23
+          ],
+          "mpjpe": 0.018357,
+          "angle_error": 7.9426,
+          "phase_recall": 1.0,
+          "impact_dist": 1,
+          "info_per_frame": 0.108454,
+          "runtime_ms": 45.5048
+        }
+      },
+      "12": {
+        "uniform": {
+          "selected": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23
+          ],
+          "mpjpe": 0.018796,
+          "angle_error": 4.6594,
+          "phase_recall": 1.0,
+          "impact_dist": 1,
+          "info_per_frame": 0.072039,
+          "runtime_ms": 0.044
+        },
+        "motion_aware": {
+          "selected": [
+            1,
+            3,
+            4,
+            7,
+            8,
+            11,
+            12,
+            14,
+            16,
+            19,
+            21,
+            22
+          ],
+          "mpjpe": 0.025539,
+          "angle_error": 4.1065,
+          "phase_recall": 0.8,
+          "impact_dist": 1,
+          "info_per_frame": 0.067987,
+          "runtime_ms": 0.098
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.040791,
+          "angle_error": 6.3505,
+          "phase_recall": 1.0,
+          "impact_dist": 1,
+          "info_per_frame": 0.058822,
+          "runtime_ms": 0.0159
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            1,
+            7,
+            10,
+            11,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.007002,
+          "angle_error": 2.7531,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.079126,
+          "runtime_ms": 6.7458,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            1,
+            9,
+            10,
+            12,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            23
+          ],
+          "mpjpe": 0.001787,
+          "angle_error": 1.873,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.08226,
+          "runtime_ms": 75.6546
+        }
+      },
+      "16": {
+        "uniform": {
+          "selected": [
+            0,
+            2,
+            3,
+            5,
+            6,
+            8,
+            9,
+            11,
+            12,
+            14,
+            15,
+            17,
+            18,
+            20,
+            21,
+            23
+          ],
+          "mpjpe": 0.002953,
+          "angle_error": 1.5121,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.061169,
+          "runtime_ms": 0.0418
+        },
+        "motion_aware": {
+          "selected": [
+            1,
+            3,
+            4,
+            7,
+            8,
+            11,
+            12,
+            14,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.003429,
+          "angle_error": 1.1018,
+          "phase_recall": 0.8,
+          "impact_dist": 0,
+          "info_per_frame": 0.060955,
+          "runtime_ms": 0.1183
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            13,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.006549,
+          "angle_error": 2.346,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.059549,
+          "runtime_ms": 0.0423
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            1,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.003825,
+          "angle_error": 2.2087,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.060776,
+          "runtime_ms": 4.0344,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            1,
+            2,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.0,
+          "angle_error": 0.0,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.0625,
+          "runtime_ms": 94.3328
+        }
+      }
+    }
+  },
+  {
+    "clip_name": "vid100_36.avi",
+    "class": "Reverse Sweep",
+    "total_frames": 24,
+    "detected_frames": 21,
+    "phase_success": true,
+    "impact_frame_estimated": 19,
+    "impact_frame_manual": null,
+    "impact_frame_used": 19,
+    "impact_uncertain": true,
+    "phase_aware_fallback_ks": [],
+    "phase_aware_errors": 0,
+    "per_k_results": {
+      "3": {
+        "uniform": {
+          "selected": [
+            0,
+            12,
+            23
+          ],
+          "mpjpe": 0.081984,
+          "angle_error": 13.0818,
+          "phase_recall": 0.6,
+          "impact_dist": 4,
+          "info_per_frame": 0.107699,
+          "runtime_ms": 0.0704
+        },
+        "motion_aware": {
+          "selected": [
+            0,
+            14,
+            20
+          ],
+          "mpjpe": 0.08006,
+          "angle_error": 13.3468,
+          "phase_recall": 0.6,
+          "impact_dist": 1,
+          "info_per_frame": 0.112995,
+          "runtime_ms": 0.0873
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            20,
+            23
+          ],
+          "mpjpe": 0.119223,
+          "angle_error": 30.8355,
+          "phase_recall": 0.6,
+          "impact_dist": 1,
+          "info_per_frame": 0.005211,
+          "runtime_ms": 0.015
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            22,
+            23
+          ],
+          "mpjpe": 0.120235,
+          "angle_error": 28.6004,
+          "phase_recall": 0.6,
+          "impact_dist": 3,
+          "info_per_frame": 0.002427,
+          "runtime_ms": 5.9501,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            16,
+            23
+          ],
+          "mpjpe": 0.075917,
+          "angle_error": 13.3357,
+          "phase_recall": 0.6,
+          "impact_dist": 3,
+          "info_per_frame": 0.124396,
+          "runtime_ms": 7.9034
+        }
+      },
+      "4": {
+        "uniform": {
+          "selected": [
+            0,
+            8,
+            15,
+            23
+          ],
+          "mpjpe": 0.056228,
+          "angle_error": 12.6704,
+          "phase_recall": 0.6,
+          "impact_dist": 4,
+          "info_per_frame": 0.133938,
+          "runtime_ms": 0.0391
+        },
+        "motion_aware": {
+          "selected": [
+            0,
+            6,
+            14,
+            20
+          ],
+          "mpjpe": 0.058075,
+          "angle_error": 12.867,
+          "phase_recall": 0.6,
+          "impact_dist": 1,
+          "info_per_frame": 0.130126,
+          "runtime_ms": 0.2697
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            20,
+            21,
+            23
+          ],
+          "mpjpe": 0.119223,
+          "angle_error": 30.8355,
+          "phase_recall": 0.6,
+          "impact_dist": 1,
+          "info_per_frame": 0.003908,
+          "runtime_ms": 0.017
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            19,
+            22,
+            23
+          ],
+          "mpjpe": 0.087487,
+          "angle_error": 14.0044,
+          "phase_recall": 0.6,
+          "impact_dist": 0,
+          "info_per_frame": 0.069416,
+          "runtime_ms": 4.228,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            6,
+            16,
+            23
+          ],
+          "mpjpe": 0.056742,
+          "angle_error": 13.1111,
+          "phase_recall": 0.6,
+          "impact_dist": 3,
+          "info_per_frame": 0.132877,
+          "runtime_ms": 16.9047
+        }
+      },
+      "5": {
+        "uniform": {
+          "selected": [
+            0,
+            6,
+            12,
+            17,
+            23
+          ],
+          "mpjpe": 0.047822,
+          "angle_error": 13.1581,
+          "phase_recall": 0.6,
+          "impact_dist": 2,
+          "info_per_frame": 0.121032,
+          "runtime_ms": 0.0403
+        },
+        "motion_aware": {
+          "selected": [
+            0,
+            6,
+            14,
+            19,
+            20
+          ],
+          "mpjpe": 0.032674,
+          "angle_error": 9.2934,
+          "phase_recall": 0.6,
+          "impact_dist": 0,
+          "info_per_frame": 0.146046,
+          "runtime_ms": 0.0631
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            20,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.119223,
+          "angle_error": 30.8355,
+          "phase_recall": 0.6,
+          "impact_dist": 1,
+          "info_per_frame": 0.003127,
+          "runtime_ms": 0.0148
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            1,
+            19,
+            22,
+            23
+          ],
+          "mpjpe": 0.068972,
+          "angle_error": 14.5752,
+          "phase_recall": 0.8,
+          "impact_dist": 0,
+          "info_per_frame": 0.086107,
+          "runtime_ms": 6.1355,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            3,
+            6,
+            16,
+            23
+          ],
+          "mpjpe": 0.048732,
+          "angle_error": 9.9907,
+          "phase_recall": 0.6,
+          "impact_dist": 3,
+          "info_per_frame": 0.119529,
+          "runtime_ms": 24.9039
+        }
+      },
+      "6": {
+        "uniform": {
+          "selected": [
+            0,
+            5,
+            9,
+            14,
+            18,
+            23
+          ],
+          "mpjpe": 0.041827,
+          "angle_error": 12.8277,
+          "phase_recall": 0.8,
+          "impact_dist": 1,
+          "info_per_frame": 0.109109,
+          "runtime_ms": 0.0479
+        },
+        "motion_aware": {
+          "selected": [
+            0,
+            6,
+            11,
+            14,
+            19,
+            20
+          ],
+          "mpjpe": 0.027423,
+          "angle_error": 8.3806,
+          "phase_recall": 0.6,
+          "impact_dist": 0,
+          "info_per_frame": 0.12893,
+          "runtime_ms": 0.07
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.075561,
+          "angle_error": 9.9358,
+          "phase_recall": 0.6,
+          "impact_dist": 0,
+          "info_per_frame": 0.062688,
+          "runtime_ms": 0.0143
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            1,
+            19,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.063009,
+          "angle_error": 12.6797,
+          "phase_recall": 0.8,
+          "impact_dist": 0,
+          "info_per_frame": 0.079962,
+          "runtime_ms": 4.1507,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            3,
+            6,
+            16,
+            18,
+            23
+          ],
+          "mpjpe": 0.042058,
+          "angle_error": 10.9596,
+          "phase_recall": 0.8,
+          "impact_dist": 1,
+          "info_per_frame": 0.108792,
+          "runtime_ms": 30.5128
+        }
+      },
+      "8": {
+        "uniform": {
+          "selected": [
+            0,
+            3,
+            7,
+            10,
+            13,
+            16,
+            20,
+            23
+          ],
+          "mpjpe": 0.040164,
+          "angle_error": 7.358,
+          "phase_recall": 0.8,
+          "impact_dist": 1,
+          "info_per_frame": 0.083548,
+          "runtime_ms": 0.0418
+        },
+        "motion_aware": {
+          "selected": [
+            0,
+            5,
+            6,
+            11,
+            14,
+            15,
+            20,
+            21
+          ],
+          "mpjpe": 0.043769,
+          "angle_error": 11.0763,
+          "phase_recall": 0.6,
+          "impact_dist": 1,
+          "info_per_frame": 0.079827,
+          "runtime_ms": 0.1303
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            14,
+            15,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.05345,
+          "angle_error": 9.6201,
+          "phase_recall": 0.8,
+          "impact_dist": 0,
+          "info_per_frame": 0.069836,
+          "runtime_ms": 0.0141
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            1,
+            17,
+            18,
+            19,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.054673,
+          "angle_error": 12.991,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.068574,
+          "runtime_ms": 4.2638,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            3,
+            6,
+            16,
+            18,
+            19,
+            20,
+            23
+          ],
+          "mpjpe": 0.02464,
+          "angle_error": 5.6709,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.09957,
+          "runtime_ms": 45.8219
+        }
+      },
+      "12": {
+        "uniform": {
+          "selected": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23
+          ],
+          "mpjpe": 0.01917,
+          "angle_error": 5.6429,
+          "phase_recall": 0.8,
+          "impact_dist": 0,
+          "info_per_frame": 0.070144,
+          "runtime_ms": 0.0416
+        },
+        "motion_aware": {
+          "selected": [
+            0,
+            2,
+            5,
+            6,
+            8,
+            11,
+            13,
+            14,
+            16,
+            19,
+            20,
+            22
+          ],
+          "mpjpe": 0.016305,
+          "angle_error": 5.2367,
+          "phase_recall": 0.8,
+          "impact_dist": 0,
+          "info_per_frame": 0.072115,
+          "runtime_ms": 0.0982
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            1,
+            13,
+            14,
+            15,
+            16,
+            17,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.032955,
+          "angle_error": 8.0713,
+          "phase_recall": 0.8,
+          "impact_dist": 0,
+          "info_per_frame": 0.060659,
+          "runtime_ms": 0.0137
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            1,
+            13,
+            14,
+            15,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.034297,
+          "angle_error": 8.0426,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.059735,
+          "runtime_ms": 6.7837,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            3,
+            6,
+            10,
+            13,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            23
+          ],
+          "mpjpe": 0.012098,
+          "angle_error": 4.3692,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.075009,
+          "runtime_ms": 69.2125
+        }
+      },
+      "16": {
+        "uniform": {
+          "selected": [
+            0,
+            2,
+            3,
+            5,
+            6,
+            8,
+            9,
+            11,
+            12,
+            14,
+            15,
+            17,
+            18,
+            20,
+            21,
+            23
+          ],
+          "mpjpe": 0.015329,
+          "angle_error": 3.367,
+          "phase_recall": 1.0,
+          "impact_dist": 1,
+          "info_per_frame": 0.05459,
+          "runtime_ms": 0.0434
+        },
+        "motion_aware": {
+          "selected": [
+            0,
+            2,
+            5,
+            6,
+            8,
+            11,
+            13,
+            14,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.011254,
+          "angle_error": 4.6996,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.056693,
+          "runtime_ms": 0.1168
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            1,
+            2,
+            6,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.012717,
+          "angle_error": 4.8706,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.055938,
+          "runtime_ms": 0.0147
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            1,
+            2,
+            6,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.012717,
+          "angle_error": 4.8706,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.055938,
+          "runtime_ms": 5.4723,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            10,
+            13,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            23
+          ],
+          "mpjpe": 0.00502,
+          "angle_error": 1.8355,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.059909,
+          "runtime_ms": 86.3935
+        }
+      }
+    }
+  },
+  {
+    "clip_name": "vid100_28.avi",
+    "class": "Scoop",
+    "total_frames": 24,
+    "detected_frames": 24,
+    "phase_success": true,
+    "impact_frame_estimated": 18,
+    "impact_frame_manual": null,
+    "impact_frame_used": 18,
+    "impact_uncertain": true,
+    "phase_aware_fallback_ks": [],
+    "phase_aware_errors": 0,
+    "per_k_results": {
+      "3": {
+        "uniform": {
+          "selected": [
+            0,
+            12,
+            23
+          ],
+          "mpjpe": 0.117387,
+          "angle_error": 12.0848,
+          "phase_recall": 0.8,
+          "impact_dist": 5,
+          "info_per_frame": 0.070344,
+          "runtime_ms": 0.065
+        },
+        "motion_aware": {
+          "selected": [
+            7,
+            15,
+            16
+          ],
+          "mpjpe": 0.0715,
+          "angle_error": 11.3897,
+          "phase_recall": 0.4,
+          "impact_dist": 2,
+          "info_per_frame": 0.173148,
+          "runtime_ms": 0.0628
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            16,
+            23
+          ],
+          "mpjpe": 0.106602,
+          "angle_error": 12.0345,
+          "phase_recall": 0.8,
+          "impact_dist": 2,
+          "info_per_frame": 0.094505,
+          "runtime_ms": 0.0139
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            21,
+            23
+          ],
+          "mpjpe": 0.103801,
+          "angle_error": 13.9174,
+          "phase_recall": 0.6,
+          "impact_dist": 3,
+          "info_per_frame": 0.100782,
+          "runtime_ms": 3.97,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            19,
+            23
+          ],
+          "mpjpe": 0.099749,
+          "angle_error": 12.3335,
+          "phase_recall": 0.8,
+          "impact_dist": 1,
+          "info_per_frame": 0.10986,
+          "runtime_ms": 10.1317
+        }
+      },
+      "4": {
+        "uniform": {
+          "selected": [
+            0,
+            8,
+            15,
+            23
+          ],
+          "mpjpe": 0.064985,
+          "angle_error": 11.2091,
+          "phase_recall": 1.0,
+          "impact_dist": 3,
+          "info_per_frame": 0.140808,
+          "runtime_ms": 0.0409
+        },
+        "motion_aware": {
+          "selected": [
+            0,
+            10,
+            16,
+            20
+          ],
+          "mpjpe": 0.066349,
+          "angle_error": 11.8872,
+          "phase_recall": 0.6,
+          "impact_dist": 2,
+          "info_per_frame": 0.138516,
+          "runtime_ms": 0.0584
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            16,
+            17,
+            23
+          ],
+          "mpjpe": 0.100933,
+          "angle_error": 12.3621,
+          "phase_recall": 0.8,
+          "impact_dist": 1,
+          "info_per_frame": 0.080404,
+          "runtime_ms": 0.0172
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            14,
+            21,
+            23
+          ],
+          "mpjpe": 0.091378,
+          "angle_error": 12.0757,
+          "phase_recall": 0.8,
+          "impact_dist": 3,
+          "info_per_frame": 0.09646,
+          "runtime_ms": 4.313,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            7,
+            19,
+            23
+          ],
+          "mpjpe": 0.061759,
+          "angle_error": 10.2945,
+          "phase_recall": 1.0,
+          "impact_dist": 1,
+          "info_per_frame": 0.146229,
+          "runtime_ms": 17.3153
+        }
+      },
+      "5": {
+        "uniform": {
+          "selected": [
+            0,
+            6,
+            12,
+            17,
+            23
+          ],
+          "mpjpe": 0.053086,
+          "angle_error": 10.627,
+          "phase_recall": 1.0,
+          "impact_dist": 1,
+          "info_per_frame": 0.128641,
+          "runtime_ms": 0.075
+        },
+        "motion_aware": {
+          "selected": [
+            0,
+            8,
+            10,
+            16,
+            20
+          ],
+          "mpjpe": 0.063404,
+          "angle_error": 11.9433,
+          "phase_recall": 0.6,
+          "impact_dist": 2,
+          "info_per_frame": 0.114771,
+          "runtime_ms": 0.0724
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            16,
+            17,
+            20,
+            23
+          ],
+          "mpjpe": 0.090531,
+          "angle_error": 10.989,
+          "phase_recall": 0.8,
+          "impact_dist": 1,
+          "info_per_frame": 0.078306,
+          "runtime_ms": 0.0157
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            1,
+            14,
+            21,
+            23
+          ],
+          "mpjpe": 0.07895,
+          "angle_error": 10.9103,
+          "phase_recall": 1.0,
+          "impact_dist": 3,
+          "info_per_frame": 0.093874,
+          "runtime_ms": 4.1388,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            7,
+            15,
+            19,
+            23
+          ],
+          "mpjpe": 0.047551,
+          "angle_error": 9.625,
+          "phase_recall": 1.0,
+          "impact_dist": 1,
+          "info_per_frame": 0.136081,
+          "runtime_ms": 25.4816
+        }
+      },
+      "6": {
+        "uniform": {
+          "selected": [
+            0,
+            5,
+            9,
+            14,
+            18,
+            23
+          ],
+          "mpjpe": 0.041104,
+          "angle_error": 8.9388,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.120622,
+          "runtime_ms": 0.0408
+        },
+        "motion_aware": {
+          "selected": [
+            0,
+            7,
+            10,
+            15,
+            16,
+            20
+          ],
+          "mpjpe": 0.055925,
+          "angle_error": 10.4348,
+          "phase_recall": 0.6,
+          "impact_dist": 2,
+          "info_per_frame": 0.10402,
+          "runtime_ms": 0.0731
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            16,
+            17,
+            20,
+            21,
+            23
+          ],
+          "mpjpe": 0.088045,
+          "angle_error": 9.7689,
+          "phase_recall": 0.8,
+          "impact_dist": 1,
+          "info_per_frame": 0.06804,
+          "runtime_ms": 0.0148
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            1,
+            14,
+            20,
+            21,
+            23
+          ],
+          "mpjpe": 0.076842,
+          "angle_error": 9.3749,
+          "phase_recall": 1.0,
+          "impact_dist": 2,
+          "info_per_frame": 0.080589,
+          "runtime_ms": 4.3932,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            3,
+            7,
+            15,
+            19,
+            23
+          ],
+          "mpjpe": 0.04068,
+          "angle_error": 8.689,
+          "phase_recall": 1.0,
+          "impact_dist": 1,
+          "info_per_frame": 0.121098,
+          "runtime_ms": 37.401
+        }
+      },
+      "8": {
+        "uniform": {
+          "selected": [
+            0,
+            3,
+            7,
+            10,
+            13,
+            16,
+            20,
+            23
+          ],
+          "mpjpe": 0.029117,
+          "angle_error": 8.5112,
+          "phase_recall": 1.0,
+          "impact_dist": 2,
+          "info_per_frame": 0.100538,
+          "runtime_ms": 0.0399
+        },
+        "motion_aware": {
+          "selected": [
+            0,
+            5,
+            8,
+            10,
+            12,
+            16,
+            20,
+            21
+          ],
+          "mpjpe": 0.037967,
+          "angle_error": 7.3173,
+          "phase_recall": 0.8,
+          "impact_dist": 2,
+          "info_per_frame": 0.093102,
+          "runtime_ms": 0.0784
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            10,
+            15,
+            16,
+            17,
+            20,
+            21,
+            23
+          ],
+          "mpjpe": 0.042548,
+          "angle_error": 9.0911,
+          "phase_recall": 1.0,
+          "impact_dist": 1,
+          "info_per_frame": 0.089254,
+          "runtime_ms": 0.0138
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            1,
+            13,
+            14,
+            16,
+            20,
+            21,
+            23
+          ],
+          "mpjpe": 0.065475,
+          "angle_error": 8.3233,
+          "phase_recall": 1.0,
+          "impact_dist": 2,
+          "info_per_frame": 0.069992,
+          "runtime_ms": 4.1062,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            3,
+            7,
+            8,
+            15,
+            19,
+            21,
+            23
+          ],
+          "mpjpe": 0.031291,
+          "angle_error": 6.7262,
+          "phase_recall": 1.0,
+          "impact_dist": 1,
+          "info_per_frame": 0.098711,
+          "runtime_ms": 49.181
+        }
+      },
+      "12": {
+        "uniform": {
+          "selected": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23
+          ],
+          "mpjpe": 0.019157,
+          "angle_error": 5.593,
+          "phase_recall": 1.0,
+          "impact_dist": 1,
+          "info_per_frame": 0.072604,
+          "runtime_ms": 0.0498
+        },
+        "motion_aware": {
+          "selected": [
+            0,
+            2,
+            5,
+            7,
+            8,
+            10,
+            12,
+            15,
+            16,
+            18,
+            20,
+            22
+          ],
+          "mpjpe": 0.018353,
+          "angle_error": 6.4257,
+          "phase_recall": 0.8,
+          "impact_dist": 0,
+          "info_per_frame": 0.073054,
+          "runtime_ms": 0.1025
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            10,
+            11,
+            12,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.021766,
+          "angle_error": 5.2861,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.071142,
+          "runtime_ms": 0.0145
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            1,
+            10,
+            11,
+            13,
+            14,
+            15,
+            16,
+            17,
+            20,
+            21,
+            23
+          ],
+          "mpjpe": 0.021252,
+          "angle_error": 6.5322,
+          "phase_recall": 1.0,
+          "impact_dist": 1,
+          "info_per_frame": 0.07143,
+          "runtime_ms": 6.8837,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            3,
+            7,
+            8,
+            10,
+            11,
+            12,
+            15,
+            17,
+            19,
+            21,
+            23
+          ],
+          "mpjpe": 0.012626,
+          "angle_error": 4.1646,
+          "phase_recall": 1.0,
+          "impact_dist": 1,
+          "info_per_frame": 0.076262,
+          "runtime_ms": 73.1569
+        }
+      },
+      "16": {
+        "uniform": {
+          "selected": [
+            0,
+            2,
+            3,
+            5,
+            6,
+            8,
+            9,
+            11,
+            12,
+            14,
+            15,
+            17,
+            18,
+            20,
+            21,
+            23
+          ],
+          "mpjpe": 0.012251,
+          "angle_error": 4.009,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.057354,
+          "runtime_ms": 0.0819
+        },
+        "motion_aware": {
+          "selected": [
+            0,
+            2,
+            5,
+            7,
+            8,
+            10,
+            12,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.010309,
+          "angle_error": 2.9954,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.058169,
+          "runtime_ms": 0.1612
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.016611,
+          "angle_error": 4.5854,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.055522,
+          "runtime_ms": 0.0183
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            1,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.014827,
+          "angle_error": 4.5797,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.056272,
+          "runtime_ms": 4.2589,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            3,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            15,
+            17,
+            18,
+            19,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.005842,
+          "angle_error": 2.3395,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.060046,
+          "runtime_ms": 95.2294
+        }
+      }
+    }
+  },
+  {
+    "clip_name": "vid100_45.avi",
+    "class": "Straight Drive",
+    "total_frames": 24,
+    "detected_frames": 14,
+    "phase_success": false,
+    "impact_frame_estimated": 4,
+    "impact_frame_manual": 12,
+    "impact_frame_used": 12,
+    "impact_uncertain": true,
+    "phase_aware_fallback_ks": [
+      3,
+      4,
+      5,
+      6,
+      8,
+      12,
+      16
+    ],
+    "phase_aware_errors": 0,
+    "per_k_results": {
+      "3": {
+        "uniform": {
+          "selected": [
+            0,
+            12,
+            23
+          ],
+          "mpjpe": 0.079829,
+          "angle_error": 29.1901,
+          "phase_recall": null,
+          "impact_dist": 0,
+          "info_per_frame": 0.067437,
+          "runtime_ms": 0.0905
+        },
+        "motion_aware": {
+          "selected": [
+            7,
+            8,
+            16
+          ],
+          "mpjpe": 0.089531,
+          "angle_error": 42.7605,
+          "phase_recall": null,
+          "impact_dist": 4,
+          "info_per_frame": 0.035118,
+          "runtime_ms": 0.0568
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            7,
+            23
+          ],
+          "mpjpe": 0.094614,
+          "angle_error": 27.4317,
+          "phase_recall": null,
+          "impact_dist": 5,
+          "info_per_frame": 0.018189,
+          "runtime_ms": 0.0138
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            7,
+            23
+          ],
+          "mpjpe": 0.094614,
+          "angle_error": 27.4317,
+          "phase_recall": null,
+          "impact_dist": 5,
+          "info_per_frame": 0.018189,
+          "runtime_ms": 4.08,
+          "fallback": true,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            13,
+            23
+          ],
+          "mpjpe": 0.078174,
+          "angle_error": 35.1072,
+          "phase_recall": null,
+          "impact_dist": 1,
+          "info_per_frame": 0.072949,
+          "runtime_ms": 8.5254
+        }
+      },
+      "4": {
+        "uniform": {
+          "selected": [
+            0,
+            8,
+            15,
+            23
+          ],
+          "mpjpe": 0.064713,
+          "angle_error": 39.1997,
+          "phase_recall": null,
+          "impact_dist": 3,
+          "info_per_frame": 0.088338,
+          "runtime_ms": 0.0388
+        },
+        "motion_aware": {
+          "selected": [
+            5,
+            7,
+            12,
+            18
+          ],
+          "mpjpe": 0.045926,
+          "angle_error": 29.6551,
+          "phase_recall": null,
+          "impact_dist": 0,
+          "info_per_frame": 0.13527,
+          "runtime_ms": 0.0572
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            7,
+            8,
+            23
+          ],
+          "mpjpe": 0.077123,
+          "angle_error": 27.2594,
+          "phase_recall": null,
+          "impact_dist": 4,
+          "info_per_frame": 0.057338,
+          "runtime_ms": 0.0132
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            7,
+            8,
+            23
+          ],
+          "mpjpe": 0.077123,
+          "angle_error": 27.2594,
+          "phase_recall": null,
+          "impact_dist": 4,
+          "info_per_frame": 0.057338,
+          "runtime_ms": 4.0396,
+          "fallback": true,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            5,
+            13,
+            23
+          ],
+          "mpjpe": 0.04241,
+          "angle_error": 29.0957,
+          "phase_recall": null,
+          "impact_dist": 1,
+          "info_per_frame": 0.144055,
+          "runtime_ms": 16.3918
+        }
+      },
+      "5": {
+        "uniform": {
+          "selected": [
+            0,
+            6,
+            12,
+            17,
+            23
+          ],
+          "mpjpe": 0.032553,
+          "angle_error": 24.7479,
+          "phase_recall": null,
+          "impact_dist": 0,
+          "info_per_frame": 0.134942,
+          "runtime_ms": 0.0417
+        },
+        "motion_aware": {
+          "selected": [
+            4,
+            7,
+            10,
+            15,
+            20
+          ],
+          "mpjpe": 0.034018,
+          "angle_error": 25.5183,
+          "phase_recall": null,
+          "impact_dist": 2,
+          "info_per_frame": 0.132014,
+          "runtime_ms": 0.3025
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            6,
+            7,
+            8,
+            23
+          ],
+          "mpjpe": 0.067999,
+          "angle_error": 25.1103,
+          "phase_recall": null,
+          "impact_dist": 4,
+          "info_per_frame": 0.064103,
+          "runtime_ms": 0.0177
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            6,
+            7,
+            8,
+            23
+          ],
+          "mpjpe": 0.067999,
+          "angle_error": 25.1103,
+          "phase_recall": null,
+          "impact_dist": 4,
+          "info_per_frame": 0.064103,
+          "runtime_ms": 4.2168,
+          "fallback": true,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            5,
+            11,
+            13,
+            23
+          ],
+          "mpjpe": 0.033276,
+          "angle_error": 25.0483,
+          "phase_recall": null,
+          "impact_dist": 1,
+          "info_per_frame": 0.133497,
+          "runtime_ms": 26.1532
+        }
+      },
+      "6": {
+        "uniform": {
+          "selected": [
+            0,
+            5,
+            9,
+            14,
+            18,
+            23
+          ],
+          "mpjpe": 0.03073,
+          "angle_error": 20.0696,
+          "phase_recall": null,
+          "impact_dist": 2,
+          "info_per_frame": 0.115489,
+          "runtime_ms": 0.04
+        },
+        "motion_aware": {
+          "selected": [
+            3,
+            7,
+            8,
+            12,
+            16,
+            20
+          ],
+          "mpjpe": 0.032589,
+          "angle_error": 20.5123,
+          "phase_recall": null,
+          "impact_dist": 0,
+          "info_per_frame": 0.112393,
+          "runtime_ms": 0.0676
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            6,
+            7,
+            8,
+            9,
+            23
+          ],
+          "mpjpe": 0.051346,
+          "angle_error": 26.5384,
+          "phase_recall": null,
+          "impact_dist": 3,
+          "info_per_frame": 0.081154,
+          "runtime_ms": 0.015
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            6,
+            7,
+            8,
+            9,
+            23
+          ],
+          "mpjpe": 0.051346,
+          "angle_error": 26.5384,
+          "phase_recall": null,
+          "impact_dist": 3,
+          "info_per_frame": 0.081154,
+          "runtime_ms": 4.347,
+          "fallback": true,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            5,
+            6,
+            11,
+            13,
+            23
+          ],
+          "mpjpe": 0.02589,
+          "angle_error": 21.1018,
+          "phase_recall": null,
+          "impact_dist": 1,
+          "info_per_frame": 0.12355,
+          "runtime_ms": 34.2949
+        }
+      },
+      "8": {
+        "uniform": {
+          "selected": [
+            0,
+            3,
+            7,
+            10,
+            13,
+            16,
+            20,
+            23
+          ],
+          "mpjpe": 0.016501,
+          "angle_error": 8.3194,
+          "phase_recall": null,
+          "impact_dist": 1,
+          "info_per_frame": 0.104389,
+          "runtime_ms": 0.0396
+        },
+        "motion_aware": {
+          "selected": [
+            2,
+            5,
+            7,
+            9,
+            12,
+            15,
+            18,
+            21
+          ],
+          "mpjpe": 0.0209,
+          "angle_error": 16.8139,
+          "phase_recall": null,
+          "impact_dist": 0,
+          "info_per_frame": 0.098895,
+          "runtime_ms": 0.0771
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            23
+          ],
+          "mpjpe": 0.033941,
+          "angle_error": 20.2347,
+          "phase_recall": null,
+          "impact_dist": 2,
+          "info_per_frame": 0.082605,
+          "runtime_ms": 0.0144
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            23
+          ],
+          "mpjpe": 0.033941,
+          "angle_error": 20.2347,
+          "phase_recall": null,
+          "impact_dist": 2,
+          "info_per_frame": 0.082605,
+          "runtime_ms": 4.0826,
+          "fallback": true,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            5,
+            6,
+            11,
+            13,
+            16,
+            18,
+            23
+          ],
+          "mpjpe": 0.012657,
+          "angle_error": 9.1362,
+          "phase_recall": null,
+          "impact_dist": 1,
+          "info_per_frame": 0.10919,
+          "runtime_ms": 51.3641
+        }
+      },
+      "12": {
+        "uniform": {
+          "selected": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23
+          ],
+          "mpjpe": 0.009453,
+          "angle_error": 5.7941,
+          "phase_recall": null,
+          "impact_dist": 1,
+          "info_per_frame": 0.075462,
+          "runtime_ms": 0.0499
+        },
+        "motion_aware": {
+          "selected": [
+            0,
+            3,
+            5,
+            7,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22
+          ],
+          "mpjpe": 0.008132,
+          "angle_error": 2.9678,
+          "phase_recall": null,
+          "impact_dist": 0,
+          "info_per_frame": 0.076561,
+          "runtime_ms": 0.1316
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            14,
+            23
+          ],
+          "mpjpe": 0.020018,
+          "angle_error": 19.5087,
+          "phase_recall": null,
+          "impact_dist": 0,
+          "info_per_frame": 0.066664,
+          "runtime_ms": 0.1149
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            14,
+            23
+          ],
+          "mpjpe": 0.020018,
+          "angle_error": 19.5087,
+          "phase_recall": null,
+          "impact_dist": 0,
+          "info_per_frame": 0.066664,
+          "runtime_ms": 7.3565,
+          "fallback": true,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            3,
+            5,
+            6,
+            11,
+            13,
+            16,
+            17,
+            18,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.001719,
+          "angle_error": 0.7186,
+          "phase_recall": null,
+          "impact_dist": 1,
+          "info_per_frame": 0.081902,
+          "runtime_ms": 76.2428
+        }
+      },
+      "16": {
+        "uniform": {
+          "selected": [
+            0,
+            2,
+            3,
+            5,
+            6,
+            8,
+            9,
+            11,
+            12,
+            14,
+            15,
+            17,
+            18,
+            20,
+            21,
+            23
+          ],
+          "mpjpe": 0.004734,
+          "angle_error": 3.0414,
+          "phase_recall": null,
+          "impact_dist": 0,
+          "info_per_frame": 0.059544,
+          "runtime_ms": 0.551
+        },
+        "motion_aware": {
+          "selected": [
+            0,
+            3,
+            5,
+            7,
+            8,
+            10,
+            12,
+            14,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.003982,
+          "angle_error": 1.3804,
+          "phase_recall": null,
+          "impact_dist": 0,
+          "info_per_frame": 0.060013,
+          "runtime_ms": 0.1244
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            23
+          ],
+          "mpjpe": 0.014773,
+          "angle_error": 14.4282,
+          "phase_recall": null,
+          "impact_dist": 0,
+          "info_per_frame": 0.053274,
+          "runtime_ms": 0.0156
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            23
+          ],
+          "mpjpe": 0.014773,
+          "angle_error": 14.4282,
+          "phase_recall": null,
+          "impact_dist": 0,
+          "info_per_frame": 0.053274,
+          "runtime_ms": 4.6612,
+          "fallback": true,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.0,
+          "angle_error": 0.0,
+          "phase_recall": null,
+          "impact_dist": 0,
+          "info_per_frame": 0.0625,
+          "runtime_ms": 92.3681
+        }
+      }
+    }
+  },
+  {
+    "clip_name": "vid100_70.avi",
+    "class": "Upper Cut",
+    "total_frames": 24,
+    "detected_frames": 24,
+    "phase_success": true,
+    "impact_frame_estimated": 10,
+    "impact_frame_manual": null,
+    "impact_frame_used": 10,
+    "impact_uncertain": false,
+    "phase_aware_fallback_ks": [],
+    "phase_aware_errors": 0,
+    "per_k_results": {
+      "3": {
+        "uniform": {
+          "selected": [
+            0,
+            12,
+            23
+          ],
+          "mpjpe": 0.051732,
+          "angle_error": 15.6348,
+          "phase_recall": 0.4,
+          "impact_dist": 2,
+          "info_per_frame": 0.120307,
+          "runtime_ms": 0.0572
+        },
+        "motion_aware": {
+          "selected": [
+            7,
+            15,
+            16
+          ],
+          "mpjpe": 0.075464,
+          "angle_error": 31.6972,
+          "phase_recall": 0.4,
+          "impact_dist": 3,
+          "info_per_frame": 0.022582,
+          "runtime_ms": 0.0543
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            15,
+            23
+          ],
+          "mpjpe": 0.047443,
+          "angle_error": 21.2971,
+          "phase_recall": 0.4,
+          "impact_dist": 5,
+          "info_per_frame": 0.137972,
+          "runtime_ms": 0.0155
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            7,
+            23
+          ],
+          "mpjpe": 0.064844,
+          "angle_error": 24.2157,
+          "phase_recall": 0.6,
+          "impact_dist": 3,
+          "info_per_frame": 0.066314,
+          "runtime_ms": 4.2517,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            15,
+            23
+          ],
+          "mpjpe": 0.047443,
+          "angle_error": 21.2971,
+          "phase_recall": 0.4,
+          "impact_dist": 5,
+          "info_per_frame": 0.137972,
+          "runtime_ms": 9.2891
+        }
+      },
+      "4": {
+        "uniform": {
+          "selected": [
+            0,
+            8,
+            15,
+            23
+          ],
+          "mpjpe": 0.044902,
+          "angle_error": 19.9355,
+          "phase_recall": 0.6,
+          "impact_dist": 2,
+          "info_per_frame": 0.111326,
+          "runtime_ms": 0.0397
+        },
+        "motion_aware": {
+          "selected": [
+            5,
+            7,
+            15,
+            18
+          ],
+          "mpjpe": 0.045363,
+          "angle_error": 17.5693,
+          "phase_recall": 0.6,
+          "impact_dist": 3,
+          "info_per_frame": 0.109902,
+          "runtime_ms": 0.0597
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            15,
+            16,
+            23
+          ],
+          "mpjpe": 0.043206,
+          "angle_error": 19.8064,
+          "phase_recall": 0.4,
+          "impact_dist": 5,
+          "info_per_frame": 0.116562,
+          "runtime_ms": 0.0143
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            7,
+            11,
+            23
+          ],
+          "mpjpe": 0.041279,
+          "angle_error": 17.4416,
+          "phase_recall": 0.6,
+          "impact_dist": 1,
+          "info_per_frame": 0.122514,
+          "runtime_ms": 4.414,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            15,
+            18,
+            23
+          ],
+          "mpjpe": 0.03812,
+          "angle_error": 19.8476,
+          "phase_recall": 0.4,
+          "impact_dist": 5,
+          "info_per_frame": 0.132272,
+          "runtime_ms": 16.8285
+        }
+      },
+      "5": {
+        "uniform": {
+          "selected": [
+            0,
+            6,
+            12,
+            17,
+            23
+          ],
+          "mpjpe": 0.028028,
+          "angle_error": 15.533,
+          "phase_recall": 0.6,
+          "impact_dist": 2,
+          "info_per_frame": 0.130751,
+          "runtime_ms": 0.0398
+        },
+        "motion_aware": {
+          "selected": [
+            4,
+            7,
+            14,
+            15,
+            20
+          ],
+          "mpjpe": 0.032899,
+          "angle_error": 14.4374,
+          "phase_recall": 0.6,
+          "impact_dist": 3,
+          "info_per_frame": 0.118717,
+          "runtime_ms": 0.0705
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            15,
+            16,
+            18,
+            23
+          ],
+          "mpjpe": 0.037201,
+          "angle_error": 18.7675,
+          "phase_recall": 0.4,
+          "impact_dist": 5,
+          "info_per_frame": 0.108087,
+          "runtime_ms": 0.0319
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            5,
+            7,
+            11,
+            23
+          ],
+          "mpjpe": 0.036908,
+          "angle_error": 14.8177,
+          "phase_recall": 0.8,
+          "impact_dist": 1,
+          "info_per_frame": 0.108811,
+          "runtime_ms": 4.3726,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            4,
+            15,
+            18,
+            23
+          ],
+          "mpjpe": 0.030867,
+          "angle_error": 18.0312,
+          "phase_recall": 0.6,
+          "impact_dist": 5,
+          "info_per_frame": 0.123736,
+          "runtime_ms": 23.8117
+        }
+      },
+      "6": {
+        "uniform": {
+          "selected": [
+            0,
+            5,
+            9,
+            14,
+            18,
+            23
+          ],
+          "mpjpe": 0.023535,
+          "angle_error": 16.2611,
+          "phase_recall": 0.8,
+          "impact_dist": 1,
+          "info_per_frame": 0.11821,
+          "runtime_ms": 0.0385
+        },
+        "motion_aware": {
+          "selected": [
+            1,
+            7,
+            8,
+            15,
+            16,
+            20
+          ],
+          "mpjpe": 0.030543,
+          "angle_error": 17.9386,
+          "phase_recall": 0.6,
+          "impact_dist": 2,
+          "info_per_frame": 0.103782,
+          "runtime_ms": 0.4469
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            15,
+            16,
+            18,
+            19,
+            23
+          ],
+          "mpjpe": 0.036067,
+          "angle_error": 18.4925,
+          "phase_recall": 0.4,
+          "impact_dist": 5,
+          "info_per_frame": 0.092408,
+          "runtime_ms": 0.0159
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            5,
+            6,
+            7,
+            11,
+            23
+          ],
+          "mpjpe": 0.036101,
+          "angle_error": 14.447,
+          "phase_recall": 0.8,
+          "impact_dist": 1,
+          "info_per_frame": 0.092337,
+          "runtime_ms": 4.2847,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            4,
+            13,
+            15,
+            18,
+            23
+          ],
+          "mpjpe": 0.021966,
+          "angle_error": 15.4923,
+          "phase_recall": 0.6,
+          "impact_dist": 3,
+          "info_per_frame": 0.121441,
+          "runtime_ms": 32.6378
+        }
+      },
+      "8": {
+        "uniform": {
+          "selected": [
+            0,
+            3,
+            7,
+            10,
+            13,
+            16,
+            20,
+            23
+          ],
+          "mpjpe": 0.016092,
+          "angle_error": 13.3382,
+          "phase_recall": 0.8,
+          "impact_dist": 0,
+          "info_per_frame": 0.100151,
+          "runtime_ms": 0.0428
+        },
+        "motion_aware": {
+          "selected": [
+            1,
+            5,
+            7,
+            10,
+            14,
+            15,
+            18,
+            21
+          ],
+          "mpjpe": 0.015768,
+          "angle_error": 11.3899,
+          "phase_recall": 0.8,
+          "impact_dist": 0,
+          "info_per_frame": 0.100651,
+          "runtime_ms": 0.0866
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            14,
+            15,
+            16,
+            18,
+            19,
+            20,
+            23
+          ],
+          "mpjpe": 0.035217,
+          "angle_error": 11.8619,
+          "phase_recall": 0.4,
+          "impact_dist": 4,
+          "info_per_frame": 0.070619,
+          "runtime_ms": 0.0144
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            4,
+            5,
+            6,
+            7,
+            9,
+            11,
+            23
+          ],
+          "mpjpe": 0.032062,
+          "angle_error": 11.33,
+          "phase_recall": 1.0,
+          "impact_dist": 1,
+          "info_per_frame": 0.07549,
+          "runtime_ms": 6.2959,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            4,
+            6,
+            12,
+            13,
+            15,
+            18,
+            23
+          ],
+          "mpjpe": 0.015903,
+          "angle_error": 12.9174,
+          "phase_recall": 0.8,
+          "impact_dist": 2,
+          "info_per_frame": 0.100443,
+          "runtime_ms": 51.3391
+        }
+      },
+      "12": {
+        "uniform": {
+          "selected": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23
+          ],
+          "mpjpe": 0.009574,
+          "angle_error": 8.2354,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.073478,
+          "runtime_ms": 0.0409
+        },
+        "motion_aware": {
+          "selected": [
+            1,
+            2,
+            5,
+            7,
+            8,
+            10,
+            12,
+            15,
+            16,
+            18,
+            20,
+            22
+          ],
+          "mpjpe": 0.011705,
+          "angle_error": 6.6555,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.071283,
+          "runtime_ms": 0.1016
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            6,
+            7,
+            8,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            23
+          ],
+          "mpjpe": 0.018855,
+          "angle_error": 10.2792,
+          "phase_recall": 0.8,
+          "impact_dist": 2,
+          "info_per_frame": 0.063923,
+          "runtime_ms": 0.0161
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            9,
+            11,
+            15,
+            16,
+            23
+          ],
+          "mpjpe": 0.018875,
+          "angle_error": 6.9238,
+          "phase_recall": 1.0,
+          "impact_dist": 1,
+          "info_per_frame": 0.063903,
+          "runtime_ms": 4.3788,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            4,
+            6,
+            9,
+            11,
+            12,
+            13,
+            14,
+            15,
+            18,
+            21,
+            23
+          ],
+          "mpjpe": 0.007781,
+          "angle_error": 8.5929,
+          "phase_recall": 1.0,
+          "impact_dist": 1,
+          "info_per_frame": 0.075323,
+          "runtime_ms": 76.0649
+        }
+      },
+      "16": {
+        "uniform": {
+          "selected": [
+            0,
+            2,
+            3,
+            5,
+            6,
+            8,
+            9,
+            11,
+            12,
+            14,
+            15,
+            17,
+            18,
+            20,
+            21,
+            23
+          ],
+          "mpjpe": 0.005517,
+          "angle_error": 4.7362,
+          "phase_recall": 1.0,
+          "impact_dist": 1,
+          "info_per_frame": 0.058241,
+          "runtime_ms": 0.0424
+        },
+        "motion_aware": {
+          "selected": [
+            1,
+            2,
+            5,
+            7,
+            8,
+            10,
+            12,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "mpjpe": 0.009955,
+          "angle_error": 5.5453,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.054814,
+          "runtime_ms": 0.122
+        },
+        "hybrid": {
+          "selected": [
+            0,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            23
+          ],
+          "mpjpe": 0.007896,
+          "angle_error": 4.3431,
+          "phase_recall": 0.8,
+          "impact_dist": 0,
+          "info_per_frame": 0.056404,
+          "runtime_ms": 0.016
+        },
+        "phase_aware": {
+          "selected": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            9,
+            11,
+            14,
+            15,
+            16,
+            18,
+            19,
+            20,
+            23
+          ],
+          "mpjpe": 0.007168,
+          "angle_error": 4.3918,
+          "phase_recall": 1.0,
+          "impact_dist": 1,
+          "info_per_frame": 0.056966,
+          "runtime_ms": 6.1795,
+          "fallback": false,
+          "error": false
+        },
+        "greedy_oracle": {
+          "selected": [
+            0,
+            2,
+            4,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            18,
+            21,
+            23
+          ],
+          "mpjpe": 0.00366,
+          "angle_error": 2.8537,
+          "phase_recall": 1.0,
+          "impact_dist": 0,
+          "info_per_frame": 0.059674,
+          "runtime_ms": 94.674
+        }
+      }
+    }
+  }
+]
