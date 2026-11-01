@@ -1,10 +1,7 @@
-@"
 streamlit
 numpy
 pandas
 plotly
 scipy
 mediapipe
-opencv-python
-pytest
-"@ | Set-Content -Encoding ascii requirements.txt
+opencv-python-headless
